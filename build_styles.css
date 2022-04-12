@@ -228,9 +228,9 @@
     }
 
     div#block0 {
-        content: "";
-        clear: both;
         display: block;
+        margin: auto;
+        width: 90%;
     }
 
     h1#title {
