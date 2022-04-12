@@ -225,6 +225,7 @@
     div#headerAndImage img {
         display: block;
         margin: auto;
+        width: 90%;
     }
 
     div#block0 {
@@ -238,6 +239,7 @@
         text-align: center;
         margin-top: 10px;
         margin-bottom: 10px;
+        width: 90%;
     }
 
     article#sameDayBuilds header {
