@@ -225,8 +225,8 @@
     div#headerAndImage img {
         display: block;
         margin: auto;
-        max-height: 100%;
-        max-width: 100%;
+        height: auto;
+        width: 100%;
     }
 
     div#block0 {
