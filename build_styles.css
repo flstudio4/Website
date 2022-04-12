@@ -150,11 +150,11 @@
 
 
 /*       ===========================
-         Mobile Styles: 386px to 640px
+         Mobile Styles: 0px to 640px
          ===========================
 */
 
-@media only screen and (min-width: 386px) and (max-width: 640px) {
+@media only screen and (max-width: 640px) {
 
     /* Navigation styles*/
 
