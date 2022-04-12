@@ -223,7 +223,9 @@
     }
 
     div#headerAndImage img {
-        display: block;
+        content: "";
+        clear: both;
+        display: table;
         margin: auto;
     }
 
