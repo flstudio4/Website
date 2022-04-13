@@ -198,6 +198,10 @@
     }
 
     /* Pull down Menu Styles */
+    
+    a.submenuTitle {
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+    }
 
     ul.submenu {
         display: none;
@@ -351,6 +355,10 @@
     }
 
     /* Pull down Menu Styles */
+    
+    a.submenuTitle {
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+    }
 
     ul.submenu {
         display: none;
