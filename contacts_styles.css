@@ -163,6 +163,13 @@
         width: 100%;
     }
 
+    div#map img {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin: 60px auto 40px auto;
+    }
+
     footer {
         width: 100%;
     }
@@ -240,6 +247,13 @@
         -webkit-flex-flow: row wrap;
         flex-flow: row wrap;
         width: 100%;
+    }
+
+    div#map img {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin: 60px auto 40px auto;
     }
 
     footer {
