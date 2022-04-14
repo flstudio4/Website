@@ -43,13 +43,6 @@
         padding-bottom: 20px;
     }
 
-    div#map img {
-        display: block;
-        width: 60%;
-        height: auto;
-        margin: 60px auto 40px auto;
-    }
-
     p#description {
         display: block;
         text-align: center;
@@ -270,5 +263,12 @@
 @media only screen and (min-width: 1008px){
     nav.mobileMenu {
         display: none;
+    }
+
+    div#map img {
+        display: block;
+        width: 60%;
+        height: auto;
+        margin: 60px auto 40px auto;
     }
 }
