@@ -257,6 +257,7 @@
         font-size: 1.5em;
         text-align: center;
         margin-bottom: 30px;
+
     }
 
     article#sameDayBuilds {
@@ -279,8 +280,14 @@
         width: 50%;
     }
 
-    div#tier1 h4, div#tier2 h4, div#tier3 h4, div#tier4 h4, div#tier5 h4,
-    div#tier1 h1, div#tier2 h1, div#tier3 h1, div#tier4 h1, div#tier5 h1,
+    div#tier1 h4, div#tier2 h4, div#tier3 h4, div#tier4 h4, div#tier5 h4 {
+        text-align: center;
+    }
+
+    div#tier1 h1, div#tier2 h1, div#tier3 h1, div#tier4 h1, div#tier5 h1 {
+        text-align: center;
+    }
+
     div#tier1 p, div#tier2 p, div#tier3 p, div#tier4 p, div#tier5 p {
         text-align: center;
         font-family: "Times New Roman", Verdana, sans-serif;
@@ -427,11 +434,16 @@
         margin: 0 auto 30px auto;
     }
 
-    div#tier1 h1, div#tier2 h1, div#tier3 h1, div#tier4 h1, div#tier5 h1,
-    div#tier1 h4, div#tier2 h4, div#tier3 h4, div#tier4 h4, div#tier5 h4,
+    div#tier1 h1, div#tier2 h1, div#tier3 h1, div#tier4 h1, div#tier5 h1 {
+        text-align: center;
+    }
+
+    div#tier1 h4, div#tier2 h4, div#tier3 h4, div#tier4 h4, div#tier5 h4 {
+        text-align: center;
+    }
+
     div#tier1 p, div#tier2 p, div#tier3 p, div#tier4 p, div#tier5 p {
         text-align: center;
-        font-family: "Times New Roman", Verdana, sans-serif;
     }
 
     div#core, div#core2, div#water, div#water2 {
@@ -488,6 +500,7 @@
         float: left;
         height: 300px;
         margin: 0 15px 20px 0;
+
     }
 
     h1#title {
