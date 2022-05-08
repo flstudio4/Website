@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*
+
+   Filename: how_to_reset.css
+
+*/
+
+/* Structural Styles */
+
+
+/* Typographic Styles */
+
+   nav, ul {
+
+        font-size: 100%;
+        margin: 0;
+        padding: 0;
+        vertical-align: baseline;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+   

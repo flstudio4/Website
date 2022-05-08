@@ -1,0 +1,421 @@
+@charset "UTF-8";
+/* Repair Form */
+@font-face {
+    font-family: "billieBarred";
+    src: url(billiebarred.woff) format('woff'),
+    url(billiebarred.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: "QuartZite";
+    src: url(SF-Quartzite-Shaded.ttf.woff) format('woff'),
+         url(SF-Quartzite-Shaded.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: "Sony Sketch";
+    src: url(Sony-Sketch-EF.ttf) format('ttf'),
+         url(Sony-Sketch-EF.ttf.woff) format('woff');
+}
+
+/*
+    Build and Repair Service website
+    Author: Eddie Rosa
+    Date: 4/14/2022
+    Filename: repair_form.css
+    This file contains the layout and styles for how_to.html
+*/
+
+/* BASE STYLES FOR ALL SCREEN SIZES */
+
+	label {
+   		display: block;
+   		float: left;
+   		clear: left;
+   		margin: 5px;
+  		width: 200px;
+	}
+
+	input, select, textarea {
+   		display: block;
+   		float: left;
+   		margin: 5px 0px;
+   		width: 200px;
+	}
+
+	textarea {
+   		height: 100px;
+	}
+
+	form p {
+   		clear: left;
+   		text-align: center;
+   		padding-top: 40px;
+	}
+
+	input[type='submit'] {
+   		background-color: rgb(144, 170, 144);
+   		color: rgb(245,245,165);
+   		border-radius: 20px;
+   		float: none;
+   		display: inline;
+   		font-size: 1.1em;
+   		height: 30px;
+   		width: 150px;
+	}
+
+  
+    h1 {
+        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
+        color: cornflowerblue;
+        text-shadow: aqua 2px 2px;
+    }
+
+    h2  {
+        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-size: 2em;
+        color: cornflowerblue;
+        text-shadow: aqua 2px 2px;
+    }
+
+ 	p {
+        font-size: 1.4em;
+        font-family: "Times New Roman", Verdana, Geneva, sans-serif;
+    }
+
+/* Form styles */
+
+    form {
+        display: block;
+        float: left;
+        width: 92%;
+        horiz-align: center;
+        margin: 50px;
+    }
+
+    div#formDescription h1 {
+        text-align: center;
+        margin: 20px;
+        font-size: 1.2em;
+        font-family: "Lucida Bright", Verdana, sans-serif;
+    }
+
+    form > fieldset {
+        border: 6px groove blue;
+        border-radius: 20px;
+        -webkit-flex: 1 1 300px;
+        flex: 1 1 300px;
+        font-size: 0.85em;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    div.formRow {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin: 7px 0;
+    }
+
+    div.formRow > * {
+        -webkit-flex: 1 1 150px;
+        flex: 1 1 150px;
+    }
+
+    legend {
+        background-color: rgb(179, 20, 25);
+        color: white;
+        padding: 5px;
+    }
+
+    textarea {
+        margin-top: 10px;
+        height: 100px;
+        width: 95%;
+    }
+
+    div#buttons {
+        text-align: center;
+        width: 100%;
+    }
+
+    div.formRow > input#dineSpin {
+        -webkit-flex: 0 0 50px;
+        flex: 0 0 50px;
+    }
+
+
+/*       ===========================
+         Mobile Styles: 0px to 640px
+         ===========================
+*/
+
+@media only screen and (max-width: 640px) {
+
+    /* Navigation styles*/
+
+    ul.mainmenu {
+        display: block;
+    }
+
+    ul.mainmenu > li {
+        text-indent: 15px;
+    }
+
+    ul.mainmenu > li:first-of-type a {
+        color: white;
+        background-color: rgb(31, 73, 125);
+    }
+
+    ul.submenu {
+        width: 100%;
+        background-color: rgb(170, 255, 255);
+        font-family: billieBarred, cursive;
+        font-size: 1em;
+        line-height: 1.8em;
+    }
+
+    nav.horizontalNavigation {
+        display: none;
+    }
+
+    nav.mobileMenu a {
+        display: block;
+        font-size: 1.5em;
+    }
+
+    nav.mobileMenu a:visited, nav.mobileMenu a:link {
+        color: rgb(31, 73, 125);
+    }
+
+    nav.mobileMenu a:hover, nav.mobileMenu a:active {
+        background-color: rgb(31, 73, 125);
+        color: white;
+    }
+
+    /* Pull down Menu Styles */
+
+    ul.submenu {
+        display: none;
+    }
+
+    a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+        display: block;
+    }
+
+    a.submenuTitle {
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+    }
+
+    /* other styles*/
+
+    body {
+        display: -webkit-flex;
+        display: flex;
+
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    div#headerAndImage p#description {
+        padding: 20px;
+    }
+
+    div#headerAndImage img {
+        display: block;
+        margin: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    div#block0 {
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+
+    h1#title {
+        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
+        color: cornflowerblue;
+        text-shadow: aqua 2px 2px;
+    }
+
+    h2  {
+        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-size: 2em;
+        color: cornflowerblue;
+        text-shadow: aqua 2px 2px;
+    }
+
+ 	p {
+        font-size: 1.4em;
+        font-family: "Times New Roman", Verdana, Geneva, sans-serif;
+    }
+
+    
+    
+}
+
+/*       =========================================
+         Tablet Styles: 641px and less than 1007px
+         =========================================
+*/
+
+@media only screen and (min-width: 641px) and (max-width: 1007px){
+
+    /* Navigation styles*/
+
+    nav.horizontalNavigation {
+        display: none;
+    }
+
+    ul.mainmenu {
+        display: block;
+    }
+
+    ul.mainmenu > li {
+        text-indent: 15px;
+    }
+
+    ul.mainmenu > li:first-of-type a {
+        color: white;
+        background-color: rgb(31, 73, 125);
+    }
+
+    ul.submenu {
+        width: 100%;
+        background-color: rgb(170, 255, 255);
+        font-family: billieBarred, cursive;
+        font-size: 1em;
+        line-height: 1.8em;
+    }
+
+    nav.mobileMenu a {
+        display: block;
+        font-size: 1.5em;
+    }
+
+    a.submenuTitle {
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+    }
+
+    nav.mobileMenu a:visited, nav.mobileMenu a:link {
+        color: rgb(31, 73, 125);
+    }
+
+    nav.mobileMenu a:hover, nav.mobileMenu a:active {
+        background-color: rgb(31, 73, 125);
+        color: white;
+    }
+
+    /* Pull down Menu Styles */
+
+    ul.submenu {
+        display: none;
+    }
+
+    a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+        display: block;
+    }
+
+    /* other styles */
+
+    body {
+        display: -webkit-flex;
+        display: flex;
+
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+     h1#title {
+        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
+        color: cornflowerblue;
+        text-shadow: aqua 2px 2px;
+    }
+
+    h2  {
+        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-size: 2em;
+        color: cornflowerblue;
+        text-shadow: aqua 2px 2px;
+    }
+
+ 	p {
+        font-size: 1.4em;
+        font-family: "Times New Roman", Verdana, Geneva, sans-serif;
+    }
+
+
+    div#headerAndImage p#description {
+        margin: 0 auto 30px auto;
+        padding: 50px;
+    }
+
+    div#headerAndImage img {
+        display: block;
+        margin: 0 auto 40px auto;
+        width: 60%;
+    }
+    
+    footer {
+        width: 100%;
+    }
+}
+
+/*       ==================================
+         Desktop Styles: 1008px and greater
+         ==================================
+*/
+
+@media only screen and (min-width: 1008px){
+
+    nav.mobileMenu {
+        display: none;
+    }
+
+    div#headerAndImage {
+        display: block;
+    }
+
+    p#description {
+        display: block;
+        width: 45%;
+        float: left;
+        margin: 0 30px 0 50px;
+        padding-top: 20px;
+    }
+
+    div#headerAndImage img {
+        width: 43.5%;
+        float: left;
+        height: 300px;
+        margin: 0 15px 20px 0;
+    }
+
+     h1#title {
+        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
+        color: cornflowerblue;
+        text-shadow: aqua 2px 2px;
+    }
+
+    h2  {
+        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-size: 2em;
+        color: cornflowerblue;
+        text-shadow: aqua 2px 2px;
+    }
+
+ 	p {
+        font-size: 1.4em;
+        font-family: "Times New Roman", Verdana, Geneva, sans-serif;
+    }
+
+}

@@ -1,0 +1,331 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "billieBarred";
+    src: url(billiebarred.woff) format('woff'),
+    url(billiebarred.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: "QuartZite";
+    src: url(SF-Quartzite-Shaded.ttf.woff) format('woff'),
+         url(SF-Quartzite-Shaded.ttf) format('ttf');
+}
+
+@font-face {
+    font-family: "Sony Sketch";
+    src: url(Sony-Sketch-EF.ttf) format('ttf'),
+         url(Sony-Sketch-EF.ttf.woff) format('woff');
+}
+
+/*
+    Build and Repair Service website
+    Author: Dmitrii Sumenko
+	Modified by: Andreea Leonard
+    Date: 4/27/2022
+    Filename: support_styles.css
+    This file contains the layout and styles for support.html
+
+*/
+
+
+/* BASE STYLES FOR ALL SCREEN SIZES */
+
+    div#headerAndImage p#description {
+        font-size: 1.4em;
+        font-family: "Times New Roman", Verdana, Geneva, sans-serif;
+
+    }
+
+    h1#title {
+        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
+        color: cornflowerblue;
+        text-shadow: aqua 2px 2px;
+    }
+
+    
+
+    /* Form styles */
+
+    form {
+        display: block;
+        float: left;
+        width: 92%;
+        horiz-align: center;
+        margin: 50px;
+    }
+
+    div#formDescription h1 {
+        text-align: center;
+        margin: 20px;
+        font-size: 1.2em;
+        font-family: "Lucida Bright", Verdana, sans-serif;
+    }
+
+    form > fieldset {
+        border: 6px groove blue;
+        border-radius: 20px;
+        -webkit-flex: 1 1 300px;
+        flex: 1 1 300px;
+        font-size: 0.85em;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    
+
+    legend {
+        background-color: rgb(179, 20, 25);
+        color: white;
+        padding: 5px;
+    }
+
+    textarea {
+        margin-top: 10px;
+        height: 100px;
+        width: 95%;
+    }
+
+    div#buttons {
+        text-align: center;
+        width: 100%;
+    }
+
+    
+
+
+
+/*       ===========================
+         Mobile Styles: 0px to 640px
+         ===========================
+*/
+
+@media only screen and (max-width: 640px) {
+
+    /* Navigation styles*/
+
+    ul.mainmenu {
+        display: block;
+    }
+
+    ul.mainmenu > li {
+        text-indent: 15px;
+    }
+
+    ul.mainmenu > li:first-of-type a {
+        color: white;
+        background-color: rgb(31, 73, 125);
+    }
+
+    ul.submenu {
+        width: 100%;
+        background-color: rgb(170, 255, 255);
+        font-family: billieBarred, cursive;
+        font-size: 1em;
+        line-height: 1.8em;
+    }
+
+    nav.horizontalNavigation {
+        display: none;
+    }
+
+    nav.mobileMenu a {
+        display: block;
+        font-size: 1.5em;
+    }
+
+    nav.mobileMenu a:visited, nav.mobileMenu a:link {
+        color: rgb(31, 73, 125);
+    }
+
+    nav.mobileMenu a:hover, nav.mobileMenu a:active {
+        background-color: rgb(31, 73, 125);
+        color: white;
+    }
+
+    /* Pull down Menu Styles */
+
+    ul.submenu {
+        display: none;
+    }
+
+    a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+        display: block;
+    }
+
+    a.submenuTitle {
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+    }
+
+    /* other styles*/
+
+    body {
+        display: -webkit-flex;
+        display: flex;
+
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    div#headerAndImage p#description {
+        padding: 20px;
+    }
+
+    div#headerAndImage img {
+        display: block;
+        margin: auto;
+        height: auto;
+        width: 100%;
+    }
+
+    
+    form {
+        width: 100%;
+        margin: 0 auto 50px auto;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+/*       =========================================
+         Tablet Styles: 641px and less than 1007px
+         =========================================
+*/
+
+@media only screen and (min-width: 641px) and (max-width: 1007px){
+
+    /* Navigation styles*/
+
+    nav.horizontalNavigation {
+        display: none;
+    }
+
+    ul.mainmenu {
+        display: block;
+    }
+
+    ul.mainmenu > li {
+        text-indent: 15px;
+    }
+
+    ul.mainmenu > li:first-of-type a {
+        color: white;
+        background-color: rgb(31, 73, 125);
+    }
+
+    ul.submenu {
+        width: 100%;
+        background-color: rgb(170, 255, 255);
+        font-family: billieBarred, cursive;
+        font-size: 1em;
+        line-height: 1.8em;
+    }
+
+    nav.mobileMenu a {
+        display: block;
+        font-size: 1.5em;
+    }
+
+    a.submenuTitle {
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+    }
+
+    nav.mobileMenu a:visited, nav.mobileMenu a:link {
+        color: rgb(31, 73, 125);
+    }
+
+    nav.mobileMenu a:hover, nav.mobileMenu a:active {
+        background-color: rgb(31, 73, 125);
+        color: white;
+    }
+
+    /* Pull down Menu Styles */
+
+    ul.submenu {
+        display: none;
+    }
+
+    a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+        display: block;
+    }
+
+    /* other styles */
+
+    body {
+        display: -webkit-flex;
+        display: flex;
+
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    
+    form {
+        margin: 0 auto 50px auto;
+        width: 80%;
+    }
+
+    div#formDescription {
+        display: block;
+        margin: 0 auto 30px auto;
+        text-align: center;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+}
+
+/*       ==================================
+         Desktop Styles: 1008px and greater
+         ==================================
+*/
+
+@media only screen and (min-width: 1008px){
+
+    nav.mobileMenu {
+        display: none;
+    }
+
+    div#headerAndImage {
+        display: block;
+    }
+
+    p#description {
+		font-size: 1.4em;
+		font-family: "Times New Roman", Verdana, Geneva, sans-serif;
+        display: block;
+        width: 60%;
+        float: left;
+        margin: 10px 70px 0 70px;
+        padding-top: 10px;
+    }
+
+    div#headerAndImage img {
+        width: 43.5%;
+        float: left;
+        height: 300px;
+        margin: 0 15px 20px 0;
+
+    }
+
+    h1#title {
+        display: block;
+        text-align: center;
+        margin: 50px 0 20px 0;
+
+    }
+
+   
+    form {
+        width: 70%;
+        margin-left: 170px;
+    }
+}
+    
