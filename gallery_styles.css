@@ -9,13 +9,13 @@
 @font-face {
     font-family: "QuartZite";
     src: url(SF-Quartzite-Shaded.ttf.woff) format('woff'),
-         url(SF-Quartzite-Shaded.ttf) format('ttf');
+    url(SF-Quartzite-Shaded.ttf) format('ttf');
 }
 
 @font-face {
     font-family: "Sony Sketch";
     src: url(Sony-Sketch-EF.ttf) format('ttf'),
-         url(Sony-Sketch-EF.ttf.woff) format('woff');
+    url(Sony-Sketch-EF.ttf.woff) format('woff');
 }
 /*  Build and Repair Service website
     Author: Dmitrii Sumenko
@@ -27,118 +27,124 @@
 
 /* BASE STYLES FOR ALL SCREEN SIZES */
 
-    div#headerAndImage p#description {
-        font-size: 1.4em;
-        font-family: "Times New Roman", Verdana, Geneva, sans-serif;
-    }
+div#headerAndImage p#description {
+    font-size: 1.4em;
+    font-family: "Times New Roman", Verdana, Geneva, sans-serif;
+}
 
-    h1#title {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
-        font-size: 2.5em;
-        color: cornflowerblue;
-        text-shadow: aqua 2px 2px;
-    }
+h1#title {
+    font-family: QuartZite, Verdana, Geneva, sans-serif;
+    font-size: 2.5em;
+    color: cornflowerblue;
+    text-shadow: aqua 2px 2px;
+}
 
-    article#sameDayBuilds header, article#advancedCooling header {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
-        font-size: 2em;
-        color: cornflowerblue;
-        text-shadow: aqua 2px 2px;
-    }
+article#sameDayBuilds header {
+    font-family: QuartZite, Verdana, Geneva, sans-serif;
+    font-size: 2em;
+    color: cornflowerblue;
+    text-shadow: aqua 2px 2px;
+}
 
-    div#tier1 h1, div#tier2 h1, div#tier3 h1, div#tier4 h1, div#tier5 h1 {
-        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-        font-size: 2em;
-    }
+article#advancedCooling header {
+    font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
 
-    div#tier1 p.price, div#tier2 p.price, div#tier3 p.price, div#tier4 p.price, div#tier5 p.price {
-        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-        font-size: 2em;
-        color: blue;
-    }
+div#tier1 h1, div#tier2 h1, div#tier3 h1, div#tier4 h1, div#tier5 h1 {
+    font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+    font-size: 2em;
+}
 
-    div#tier1 p, div#tier2 p, div#tier3 p, div#tier4 p, div#tier5 p {
-        font-family: "Times New Roman", Verdana, Geneva, sans-serif;
-        font-size: 1.2em;
-        color: black;
-    }
+div#tier1 p.price, div#tier2 p.price, div#tier3 p.price, div#tier4 p.price, div#tier5 p.price {
+    font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+    font-size: 2em;
+    color: blue;
+}
 
-    article#sameDayBuilds h4 {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
-        font-size: 1.5em;
-        color: cornflowerblue;
-    }
+div#tier1 p, div#tier2 p, div#tier3 p, div#tier4 p, div#tier5 p {
+    font-family: "Times New Roman", Verdana, Geneva, sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
 
-    article#advancedCooling h4 {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
-        font-size: 1.5em;
-        color: cornflowerblue;
-        position: relative;
-    }
+article#sameDayBuilds h4 {
+    font-family: QuartZite, Verdana, Geneva, sans-serif;
+    font-size: 1.5em;
+    color: cornflowerblue;
+}
 
-    article#advancedCooling h5 {
-        text-align: center;
-    }
+article#advancedCooling h4 {
+    font-family: QuartZite, Verdana, Geneva, sans-serif;
+    font-size: 1.5em;
+    color: cornflowerblue;
+    position: relative;
+}
 
-    /* Form styles */
+article#advancedCooling h5 {
+    text-align: center;
+}
 
-    form {
-        display: block;
-        float: left;
-        width: 92%;
-        margin: 50px;
-    }
+/* Form styles */
 
-    div#formDescription h1 {
-        text-align: center;
-        margin: 20px;
-        font-size: 1.2em;
-        font-family: "Lucida Bright", Verdana, sans-serif;
-    }
-    form > fieldset {
-        border: 6px groove blue;
-        border-radius: 20px;
-        -webkit-flex: 1 1 300px;
-        flex: 1 1 300px;
-        font-size: 0.85em;
-        padding: 10px;
-        margin: 10px;
-    }
+form {
+    display: block;
+    float: left;
+    width: 92%;
+    margin: 50px;
+}
 
-    div.formRow {
-        display: -webkit-flex;
-        display: flex;
-        -webkit-flex-flow: row wrap;
-        flex-flow: row wrap;
-        margin: 7px 0;
-    }
+div#formDescription h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 1.2em;
+    font-family: "Lucida Bright", Verdana, sans-serif;
+}
+form > fieldset {
+    border: 6px groove blue;
+    border-radius: 20px;
+    -webkit-flex: 1 1 300px;
+    flex: 1 1 300px;
+    font-size: 0.85em;
+    padding: 10px;
+    margin: 10px;
+}
 
-    div.formRow > * {
-        -webkit-flex: 1 1 150px;
-        flex: 1 1 150px;
-    }
+div.formRow {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 7px 0;
+}
 
-    legend {
-        background-color: rgb(179, 20, 25);
-        color: white;
-        padding: 5px;
-    }
+div.formRow > * {
+    -webkit-flex: 1 1 150px;
+    flex: 1 1 150px;
+}
 
-    textarea {
-        margin-top: 10px;
-        height: 100px;
-        width: 95%;
-    }
+legend {
+    background-color: rgb(179, 20, 25);
+    color: white;
+    padding: 5px;
+}
 
-    div#buttons {
-        text-align: center;
-        width: 100%;
-    }
+textarea {
+    margin-top: 10px;
+    height: 100px;
+    width: 95%;
+}
 
-    div.formRow > input#dineSpin {
-        -webkit-flex: 0 0 50px;
-        flex: 0 0 50px;
-    }
+div#buttons {
+    text-align: center;
+    width: 100%;
+}
+
+div.formRow > input#dineSpin {
+    -webkit-flex: 0 0 50px;
+    flex: 0 0 50px;
+}
 
 
 
@@ -506,6 +512,11 @@
         margin: 50px;
     }
 
+    article#advancedCooling img {
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+
     div#block2 {
         display: block;
         margin: 20px;
@@ -586,4 +597,3 @@
         width: 50%;
     }
 }
-
