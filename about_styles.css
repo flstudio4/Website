@@ -31,6 +31,18 @@
 
 /* BASE STYLES FOR ALL SCREEN SIZES */
 
+h1#title {
+    font-family: QuartZite, Verdana, Geneva, sans-serif;
+    font-size: 2.5em;
+    color: cornflowerblue;
+    text-shadow: aqua 2px 2px;
+    border-bottom: navy 6px double;
+    width: 60%;
+    margin: 40px auto 40px auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 /*       ===========================
          Mobile Styles: 0px to 640px
          ===========================
@@ -38,75 +50,7 @@
 
 @media only screen and (max-width: 640px) {
 
-    /* Navigation styles*/
-
-    ul.mainmenu {
-        display: block;
-    }
-
-    ul.mainmenu > li {
-        text-indent: 15px;
-    }
-
-    ul.mainmenu > li:first-of-type a {
-        color: white;
-        background-color: rgb(31, 73, 125);
-    }
-
-    ul.submenu {
-        width: 100%;
-        background-color: rgb(170, 255, 255);
-        font-family: billieBarred, cursive;
-        font-size: 1em;
-        line-height: 1.8em;
-    }
-
-    nav.horizontalNavigation {
-        display: none;
-    }
-
-    nav.mobileMenu a {
-        display: block;
-        font-size: 1.5em;
-    }
-
-    nav.mobileMenu a:visited, nav.mobileMenu a:link {
-        color: rgb(31, 73, 125);
-    }
-
-    nav.mobileMenu a:hover, nav.mobileMenu a:active {
-        background-color: rgb(31, 73, 125);
-        color: white;
-    }
-
-    /* Pull down Menu Styles */
-
-    ul.submenu {
-        display: none;
-    }
-
-    a.submenuTitle:hover + ul.submenu, ul.submenu:hover {
-        display: block;
-    }
-
-    a.submenuTitle {
-        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-    }
-
     /* other styles*/
-
-    body {
-        display: -webkit-flex;
-        display: flex;
-
-        -webkit-flex-flow: row wrap;
-        flex-flow: row wrap;
-        width: 100%;
-    }
-
-    footer {
-        width: 100%;
-    }
 
 }
 
@@ -117,75 +61,7 @@
 
 @media only screen and (min-width: 641px) and (max-width: 1007px){
 
-/* Navigation styles*/
-
-    nav.horizontalNavigation {
-        display: none;
-    }
-
-    ul.mainmenu {
-        display: block;
-    }
-
-    ul.mainmenu > li {
-        text-indent: 15px;
-    }
-
-    ul.mainmenu > li:first-of-type a {
-        color: white;
-        background-color: rgb(31, 73, 125);
-    }
-
-    ul.submenu {
-        width: 100%;
-        background-color: rgb(170, 255, 255);
-        font-family: billieBarred, cursive;
-        font-size: 1em;
-        line-height: 1.8em;
-    }
-
-    nav.mobileMenu a {
-        display: block;
-        font-size: 1.5em;
-    }
-
-    a.submenuTitle {
-        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-    }
-
-    nav.mobileMenu a:visited, nav.mobileMenu a:link {
-        color: rgb(31, 73, 125);
-    }
-
-    nav.mobileMenu a:hover, nav.mobileMenu a:active {
-        background-color: rgb(31, 73, 125);
-        color: white;
-    }
-
-    /* Pull down Menu Styles */
-
-    ul.submenu {
-        display: none;
-    }
-
-    a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
-        display: block;
-    }
-
     /* other styles */
-
-    body {
-        display: -webkit-flex;
-        display: flex;
-
-        -webkit-flex-flow: row wrap;
-        flex-flow: row wrap;
-        width: 100%;
-    }
-
-    footer {
-        width: 100%;
-    }
 
 }
 
@@ -196,7 +72,4 @@
 
 @media only screen and (min-width: 1008px) {
 
-    nav.mobileMenu {
-        display: none;
-    }
 }

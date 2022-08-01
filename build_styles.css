@@ -42,6 +42,11 @@
         font-size: 2.5em;
         color: cornflowerblue;
         text-shadow: aqua 2px 2px;
+        border-bottom: navy 6px double;
+        width: 50%;
+        margin: 40px auto 40px auto;
+        text-align: center;
+        padding-bottom: 20px;
     }
 
     article#sameDayBuilds header, article#advancedCooling header {
@@ -500,13 +505,6 @@
         float: left;
         height: 300px;
         margin: 0 15px 20px 0;
-
-    }
-
-    h1#title {
-        display: block;
-        text-align: center;
-        margin: 50px 0 20px 0;
 
     }
 
