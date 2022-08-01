@@ -17,68 +17,19 @@
     src: url(Sony-Sketch-EF.ttf) format('ttf'),
     url(Sony-Sketch-EF.ttf.woff) format('woff');
 }
-/*  Build and Repair Service website
+
+/*
+    Build and Repair Service website
     Author: Dmitrii Sumenko
-    Modified by: Vincent Hemmer
-    Date: 5/4/2022
+    Date: 8/01/2022
+
     Filename: about_styles.css
-    This file contains the layout and styles for about_styles.css
+
+    This file contains the layout and styles for about.html
+
 */
 
-/* all screen sizes */
-
-    h1 {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
-        font-size: 2.5em;
-        color: cornflowerblue;
-        text-shadow: aqua 2px 2px;
-        border-bottom: navy 6px double;
-        width: 80%;
-        margin: 40px auto 40px auto;
-        text-align: center;
-        padding-bottom: 20px;
-    }
-
-    p#description {
-        display: block;
-        text-align: center;
-        margin: 40px auto 40px auto;
-        padding-bottom: 40px;
-        width: 70%;
-        font-size: 1.4em;
-        font-family: "Times New Roman", Verdana, Geneva, sans-serif;
-        border-bottom: navy 6px double;
-    }
-
-    h2 {
-        display: block;
-        margin: 0 auto 0 auto;
-        text-align: center;
-        width: 70%;
-        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-        font-size: 2em;
-    }
-
-    h3 {
-        display: block;
-        margin: 10px auto 10px auto;
-        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-        font-size: 1.5em;
-        width: 70%;
-        text-align: center;
-    }
-
-    article p {
-        display: block;
-        margin: 10px auto 10px auto;
-        font-family: "Times New Roman", Verdana,Geneva, sans-serif;
-        font-size: 1.5em;
-        width: 70%;
-        text-align: center;
-    }
-
-
-
+/* BASE STYLES FOR ALL SCREEN SIZES */
 
 /*       ===========================
          Mobile Styles: 0px to 640px
@@ -86,7 +37,7 @@
 */
 
 @media only screen and (max-width: 640px) {
-    
+
     /* Navigation styles*/
 
     ul.mainmenu {
@@ -134,7 +85,7 @@
         display: none;
     }
 
-    a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+    a.submenuTitle:hover + ul.submenu, ul.submenu:hover {
         display: block;
     }
 
@@ -153,19 +104,11 @@
         width: 100%;
     }
 
-    div#map img {
-        display: block;
-        width: 80%;
-        height: auto;
-        margin: 60px auto 40px auto;
-    }
-
     footer {
         width: 100%;
     }
+
 }
-
-
 
 /*       =========================================
          Tablet Styles: 641px and less than 1007px
@@ -173,8 +116,8 @@
 */
 
 @media only screen and (min-width: 641px) and (max-width: 1007px){
-    
-    /* Navigation styles*/
+
+/* Navigation styles*/
 
     nav.horizontalNavigation {
         display: none;
@@ -229,7 +172,7 @@
         display: block;
     }
 
-    /* other styles*/
+    /* other styles */
 
     body {
         display: -webkit-flex;
@@ -240,34 +183,20 @@
         width: 100%;
     }
 
-    div#map img {
-        display: block;
-        width: 80%;
-        height: auto;
-        margin: 60px auto 40px auto;
-    }
-
     footer {
         width: 100%;
     }
-}
 
+}
 
 /*       ==================================
          Desktop Styles: 1008px and greater
          ==================================
 */
 
-@media only screen and (min-width: 1008px){
-    
+@media only screen and (min-width: 1008px) {
+
     nav.mobileMenu {
         display: none;
-    }
-
-    div#map img {
-        display: block;
-        width: 60%;
-        height: auto;
-        margin: 60px auto 40px auto;
     }
 }

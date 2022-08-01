@@ -17,136 +17,19 @@
     src: url(Sony-Sketch-EF.ttf) format('ttf'),
     url(Sony-Sketch-EF.ttf.woff) format('woff');
 }
-/*  Build and Repair Service website
+
+/*
+    Build and Repair Service website
     Author: Dmitrii Sumenko
-    Modified by: Vincent Hemmer
-    Date: 5/4/2022
+    Date: 8/01/2022
+
     Filename: gallery_styles.css
-    This file contains the layout and styles for gallery_styles.css
+
+    This file contains the layout and styles for gallery.html
+
 */
 
 /* BASE STYLES FOR ALL SCREEN SIZES */
-
-div#headerAndImage p#description {
-    font-size: 1.4em;
-    font-family: "Times New Roman", Verdana, Geneva, sans-serif;
-}
-
-h1#title {
-    font-family: QuartZite, Verdana, Geneva, sans-serif;
-    font-size: 2.5em;
-    color: cornflowerblue;
-    text-shadow: aqua 2px 2px;
-}
-
-article#sameDayBuilds header {
-    font-family: QuartZite, Verdana, Geneva, sans-serif;
-    font-size: 2em;
-    color: cornflowerblue;
-    text-shadow: aqua 2px 2px;
-}
-
-article#advancedCooling header {
-    font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-    font-size: 2em;
-    font-weight: bold;
-}
-
-div#tier1 h1, div#tier2 h1, div#tier3 h1, div#tier4 h1, div#tier5 h1 {
-    font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-    font-size: 2em;
-}
-
-div#tier1 p.price, div#tier2 p.price, div#tier3 p.price, div#tier4 p.price, div#tier5 p.price {
-    font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-    font-size: 2em;
-    color: blue;
-}
-
-div#tier1 p, div#tier2 p, div#tier3 p, div#tier4 p, div#tier5 p {
-    font-family: "Times New Roman", Verdana, Geneva, sans-serif;
-    font-size: 1.2em;
-    color: black;
-}
-
-article#sameDayBuilds h4 {
-    font-family: QuartZite, Verdana, Geneva, sans-serif;
-    font-size: 1.5em;
-    color: cornflowerblue;
-}
-
-article#advancedCooling h4 {
-    font-family: QuartZite, Verdana, Geneva, sans-serif;
-    font-size: 1.5em;
-    color: cornflowerblue;
-    position: relative;
-}
-
-article#advancedCooling h5 {
-    text-align: center;
-}
-
-/* Form styles */
-
-form {
-    display: block;
-    float: left;
-    width: 92%;
-    margin: 50px;
-}
-
-div#formDescription h1 {
-    text-align: center;
-    margin: 20px;
-    font-size: 1.2em;
-    font-family: "Lucida Bright", Verdana, sans-serif;
-}
-form > fieldset {
-    border: 6px groove blue;
-    border-radius: 20px;
-    -webkit-flex: 1 1 300px;
-    flex: 1 1 300px;
-    font-size: 0.85em;
-    padding: 10px;
-    margin: 10px;
-}
-
-div.formRow {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    flex-flow: row wrap;
-    margin: 7px 0;
-}
-
-div.formRow > * {
-    -webkit-flex: 1 1 150px;
-    flex: 1 1 150px;
-}
-
-legend {
-    background-color: rgb(179, 20, 25);
-    color: white;
-    padding: 5px;
-}
-
-textarea {
-    margin-top: 10px;
-    height: 100px;
-    width: 95%;
-}
-
-div#buttons {
-    text-align: center;
-    width: 100%;
-}
-
-div.formRow > input#dineSpin {
-    -webkit-flex: 0 0 50px;
-    flex: 0 0 50px;
-}
-
-
 
 /*       ===========================
          Mobile Styles: 0px to 640px
@@ -202,7 +85,7 @@ div.formRow > input#dineSpin {
         display: none;
     }
 
-    a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+    a.submenuTitle:hover + ul.submenu, ul.submenu:hover {
         display: block;
     }
 
@@ -221,89 +104,10 @@ div.formRow > input#dineSpin {
         width: 100%;
     }
 
-    div#headerAndImage p#description {
-        padding: 20px;
-    }
-
-    div#headerAndImage img {
-        display: block;
-        margin: auto;
-        height: auto;
-        width: 100%;
-    }
-
-    div#block0 {
-        display: block;
-        margin: auto;
-        width: 90%;
-    }
-
-    h1#title {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
-        font-size: 2em;
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    article#sameDayBuilds header {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
-        font-size: 1.5em;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    article#sameDayBuilds {
-        display: block;
-        margin: 30px auto 30px auto;
-    }
-
-    article#advancedCooling header {
-        text-align: center;
-        margin: 0 auto 30px auto;
-    }
-
-    article#advancedCooling img {
-        display: block;
-        margin: auto;
-        height: auto;
-        width: 100%;
-    }
-
-    div#core, div#water, div#core2, div#water2 {
-        float: left;
-        width: 50%;
-    }
-
-    div#tier1 h4, div#tier2 h4, div#tier3 h4, div#tier4 h4, div#tier5 h4 {
-        text-align: center;
-    }
-
-    div#tier1 h1, div#tier2 h1, div#tier3 h1, div#tier4 h1, div#tier5 h1 {
-        text-align: center;
-    }
-
-    div#tier1 p, div#tier2 p, div#tier3 p, div#tier4 p, div#tier5 p {
-        text-align: center;
-        font-family: "Times New Roman", Verdana, sans-serif;
-    }
-
-    div#core h5, div#water h5 {
-        font-weight: bold;
-    }
-
-    div#formDescription {
-        margin: auto;
-    }
-
-    form {
-        width: 100%;
-        margin: 0 auto 50px auto;
-    }
-
     footer {
         width: 100%;
     }
+
 }
 
 /*       =========================================
@@ -313,7 +117,7 @@ div.formRow > input#dineSpin {
 
 @media only screen and (min-width: 641px) and (max-width: 1007px){
 
-    /* Navigation styles*/
+/* Navigation styles*/
 
     nav.horizontalNavigation {
         display: none;
@@ -379,91 +183,10 @@ div.formRow > input#dineSpin {
         width: 100%;
     }
 
-    h1#title {
-        text-align: center;
-        margin: 20px;
-    }
-
-    div#headerAndImage p#description {
-        margin: 0 auto 30px auto;
-        padding: 50px;
-    }
-
-    div#headerAndImage img {
-        display: block;
-        margin: 0 auto 40px auto;
-        width: 60%;
-    }
-
-    article#sameDayBuilds header {
-        text-align: center;
-        padding-bottom: 30px;
-    }
-
-    article#sameDayBuilds {
-        display: block;
-        margin: 30px auto 30px auto;
-    }
-
-    div#block1 {
-        display: block;
-        margin: 0 auto 30px auto;
-    }
-
-    div#block1 div#tier1, div#block1 div#tier2 {
-        margin-bottom: 20px;
-    }
-
-    article#advancedCooling header {
-        text-align: center;
-        margin: 0 auto 40px auto;
-    }
-
-    article#advancedCooling {
-        width: 80%;
-        display: block;
-        margin: auto;
-    }
-
-    div#tier4, div#tier5 {
-        margin: 0 auto 30px auto;
-    }
-
-    div#tier1 h1, div#tier2 h1, div#tier3 h1, div#tier4 h1, div#tier5 h1 {
-        text-align: center;
-    }
-
-    div#tier1 h4, div#tier2 h4, div#tier3 h4, div#tier4 h4, div#tier5 h4 {
-        text-align: center;
-    }
-
-    div#tier1 p, div#tier2 p, div#tier3 p, div#tier4 p, div#tier5 p {
-        text-align: center;
-    }
-
-    div#core, div#core2, div#water, div#water2 {
-        float: left;
-        width: 50%;
-    }
-
-    .price {
-        text-align: center;
-    }
-
-    form {
-        margin: 0 auto 50px auto;
-        width: 80%;
-    }
-
-    div#formDescription {
-        display: block;
-        margin: 0 auto 30px auto;
-        text-align: center;
-    }
-
     footer {
         width: 100%;
     }
+
 }
 
 /*       ==================================
@@ -471,129 +194,9 @@ div.formRow > input#dineSpin {
          ==================================
 */
 
-@media only screen and (min-width: 1008px){
+@media only screen and (min-width: 1008px) {
 
     nav.mobileMenu {
         display: none;
-    }
-
-    div#headerAndImage {
-        display: block;
-    }
-
-    p#description {
-        display: block;
-        width: 45%;
-        float: left;
-        margin: 0 30px 0 50px;
-        padding-top: 20px;
-    }
-
-    div#headerAndImage img {
-        width: 43.5%;
-        float: left;
-        height: 300px;
-        margin: 0 15px 20px 0;
-    }
-
-    h1#title {
-        display: block;
-        text-align: center;
-        margin: 50px 0 20px 0;
-    }
-
-    article#sameDayBuilds {
-        display: block;
-        margin: 60px;
-    }
-
-    article#advancedCooling {
-        display: block;
-        margin: 50px;
-    }
-
-    article#advancedCooling img {
-        display: block;
-        margin: 0 auto 0 auto;
-    }
-
-    div#block2 {
-        display: block;
-        margin: 20px;
-        float: left;
-        width: 100%;
-    }
-
-    div#block1 {
-        display: block;
-        margin: 20px;
-        float: left;
-        width: 100%;
-    }
-
-    div#tier1, div#tier2, div#tier3 {
-        float: left;
-        width: 31%;
-    }
-
-    div#tier4, div#tier5 {
-        float: left;
-        width: 47%;
-    }
-
-    article#sameDayBuilds header {
-        text-align: center;
-        margin: 20px;
-    }
-
-    article#advancedCooling header {
-        text-align: center;
-        margin: 20px;
-        padding-top: 50px;
-    }
-
-    article#advancedCooling h1, article#advancedCooling h4 {
-        text-align: center;
-        margin: 10px;
-    }
-
-    article#sameDayBuilds h1, article#sameDayBuilds h4 {
-        text-align: center;
-        margin: 10px;
-    }
-
-    div#formDescription {
-        display: block;
-        float: left;
-        text-align: center;
-        width: 100%;
-    }
-
-    form {
-        width: 70%;
-        margin-left: 170px;
-    }
-
-    div#core p, div#core2 p {
-        text-align: center;
-    }
-
-    div#water p, div#water2 p {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    p.price {
-        text-align: center;
-        margin: 10px;
-    }
-
-    div#tier1 p, div#tier2 p, div#tier3 p {
-        text-align: center;
-    }
-
-    div#core, div#core2, div #water, div #water2 {
-        float: left;
-        width: 50%;
     }
 }

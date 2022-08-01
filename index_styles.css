@@ -9,76 +9,27 @@
 @font-face {
     font-family: "QuartZite";
     src: url(SF-Quartzite-Shaded.ttf.woff) format('woff'),
-         url(SF-Quartzite-Shaded.ttf) format('ttf');
+    url(SF-Quartzite-Shaded.ttf) format('ttf');
 }
 
 @font-face {
     font-family: "Sony Sketch";
     src: url(Sony-Sketch-EF.ttf) format('ttf'),
-         url(Sony-Sketch-EF.ttf.woff) format('woff');
+    url(Sony-Sketch-EF.ttf.woff) format('woff');
 }
 
-/*  Build and Repair Service website
+/*
+    Build and Repair Service website
     Author: Dmitrii Sumenko
-	Modified by: Andreea Leonard
-    Date: 4/27/2022
+    Date: 8/01/2022
+
     Filename: index_styles.css
+
     This file contains the layout and styles for index.html
+
 */
 
 /* BASE STYLES FOR ALL SCREEN SIZES */
-
-    div#headerAndImage p#description {
-        font-size: 1.4em;
-        font-family: "Times New Roman", Verdana, Geneva, sans-serif;
-
-    }
-
-    h1#title {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
-        font-size: 2.5em;
-        color: cornflowerblue;
-        text-shadow: aqua 2px 2px;
-    }
-
-
-    /* Form styles */
-
-    form {
-        display: block;
-        float: left;
-        width: 92%;
-        horiz-align: center;
-        margin: 50px;
-    }
-
-
-    form > fieldset {
-        border: 6px groove blue;
-        border-radius: 20px;
-        -webkit-flex: 1 1 300px;
-        flex: 1 1 300px;
-        font-size: 0.85em;
-        padding: 10px;
-        margin: 10px;
-    }
-
-
-    legend {
-        background-color: rgb(179, 20, 25);
-        color: white;
-        padding: 5px;
-    }
-
- 
-
-    div#buttons {
-        text-align: center;
-        width: 100%;
-    }
-
-  
-
 
 /*       ===========================
          Mobile Styles: 0px to 640px
@@ -134,7 +85,7 @@
         display: none;
     }
 
-    a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+    a.submenuTitle:hover + ul.submenu, ul.submenu:hover {
         display: block;
     }
 
@@ -153,35 +104,10 @@
         width: 100%;
     }
 
-    div#headerAndImage p#description {
-        padding: 20px;
-    }
-
-    div#headerAndImage img {
-        display: block;
-        margin: auto;
-        height: auto;
-        width: 100%;
-    }
-
-
-    h1#title {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
-        font-size: 2em;
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
- 
-    form {
-        width: 100%;
-        margin: 0 auto 50px auto;
-    }
-
     footer {
         width: 100%;
     }
+
 }
 
 /*       =========================================
@@ -191,7 +117,7 @@
 
 @media only screen and (min-width: 641px) and (max-width: 1007px){
 
-    /* Navigation styles*/
+/* Navigation styles*/
 
     nav.horizontalNavigation {
         display: none;
@@ -257,18 +183,6 @@
         width: 100%;
     }
 
-    h1#title {
-        text-align: center;
-        margin: 20px;
-    }
-
-
-    form {
-        margin: 0 auto 50px auto;
-        width: 80%;
-    }
-
- 
     footer {
         width: 100%;
     }
@@ -280,44 +194,9 @@
          ==================================
 */
 
-@media only screen and (min-width: 1008px){
+@media only screen and (min-width: 1008px) {
 
     nav.mobileMenu {
         display: none;
-    }
-
-    div#headerAndImage {
-        display: block;
-    }
-
-    p#description {
-		font-size: 1.4em;
-		font-family: "Times New Roman", Verdana, Geneva, sans-serif;
-        display: block;
-        width: 45%;
-        float: left;
-        margin: 0 30px 0 50px;
-        padding-top: 20px;
-    }
-
-    div#headerAndImage img {
-        width: 43.5%;
-        float: left;
-        height: 300px;
-        margin: 0 15px 20px 0;
-
-    }
-
-    h1#title {
-        display: block;
-        text-align: center;
-        margin: 50px 0 20px 0;
-
-    }
-
- 
-    form {
-        width: 70%;
-        margin-left: 170px;
     }
 }
