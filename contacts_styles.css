@@ -30,17 +30,17 @@
 
 /* all screen sizes */
 
-h1#title {
-    font-family: QuartZite, Verdana, Geneva, sans-serif;
-    font-size: 2.5em;
-    color: cornflowerblue;
-    text-shadow: aqua 2px 2px;
-    border-bottom: navy 6px double;
-    width: 50%;
-    margin: 40px auto 40px auto;
-    text-align: center;
-    padding-bottom: 20px;
-}
+    h1#title {
+        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
+        color: cornflowerblue;
+        text-shadow: aqua 2px 2px;
+        border-bottom: navy 6px double;
+        width: 50%;
+        margin: 40px auto 40px auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
 
     p#description {
         display: block;
@@ -81,8 +81,6 @@ h1#title {
     }
 
 
-
-
 /*       ===========================
          Mobile Styles: 0px to 640px
          ===========================
@@ -92,11 +90,15 @@ h1#title {
     
     /* other styles*/
 
+    h1#title {
+        width: 90%;
+    }
+
     div#map img {
         display: block;
         width: 80%;
         height: auto;
-        margin: 60px auto 40px auto;
+        margin: 40px auto 40px auto;
     }
 }
 
@@ -110,11 +112,15 @@ h1#title {
 
     /* other styles*/
 
+    h1#title {
+        width: 70%;
+    }
+
     div#map img {
         display: block;
         width: 80%;
         height: auto;
-        margin: 60px auto 40px auto;
+        margin: 40px auto 40px auto;
     }
 }
 
@@ -130,6 +136,6 @@ h1#title {
         display: block;
         width: 60%;
         height: auto;
-        margin: 60px auto 40px auto;
+        margin: 40px auto 40px auto;
     }
 }
