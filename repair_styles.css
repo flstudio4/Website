@@ -53,6 +53,11 @@ h1#title {
     /* other styles*/
 
     h1#title {
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
         width: 70%;
     }
 
@@ -69,6 +74,11 @@ h1#title {
     /* other styles */
 
     h1#title {
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
         width: 60%;
     }
 
@@ -82,6 +92,11 @@ h1#title {
 
 @media only screen and (min-width: 1008px) {
     h1#title {
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
         width: 60%;
     }
 

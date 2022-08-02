@@ -91,6 +91,11 @@
     /* other styles*/
 
     h1#title {
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
         width: 70%;
     }
 
@@ -113,6 +118,11 @@
     /* other styles*/
 
     h1#title {
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
         width: 70%;
     }
 
