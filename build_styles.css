@@ -38,7 +38,7 @@
     }
 
     h1#title {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
         font-size: 2.5em;
         color: cornflowerblue;
         text-shadow: aqua 2px 2px;
@@ -50,7 +50,7 @@
     }
 
     article#sameDayBuilds header, article#advancedCooling header {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
         font-size: 2em;
         color: cornflowerblue;
         text-shadow: aqua 2px 2px;
@@ -74,13 +74,13 @@
     }
 
     article#sameDayBuilds h4 {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
         font-size: 1.5em;
         color: cornflowerblue;
     }
 
     article#advancedCooling h4 {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
         font-size: 1.5em;
         color: cornflowerblue;
     }
@@ -90,7 +90,7 @@
     }
 
     div#tier1, div#tier2, div#tier3, div#tier4, div#tier5 {
-        border: 6px groove blue;
+        border: 3px groove dodgerblue;
         border-radius: 20px;
         margin: 4px;
     }
@@ -100,9 +100,9 @@
     form {
         display: block;
         float: left;
-        width: 92%;
+        width: 80%;
         horiz-align: center;
-        margin: 50px;
+        margin: 30px auto 30px auto;
     }
 
     div#formDescription h1 {
@@ -113,7 +113,7 @@
     }
 
     form > fieldset {
-        border: 6px groove blue;
+        border: 3px groove dodgerblue;
         border-radius: 20px;
         -webkit-flex: 1 1 300px;
         flex: 1 1 300px;
@@ -144,7 +144,7 @@
     textarea {
         margin-top: 10px;
         height: 100px;
-        width: 95%;
+        width: 80%;
     }
 
     div#buttons {
@@ -249,8 +249,14 @@
         width: 90%;
     }
 
+    div#block2 {
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+
     h1#title {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
         font-size: 2.5em;
         text-align: center;
         margin-top: 10px;
@@ -258,16 +264,16 @@
     }
 
     article#sameDayBuilds header {
-        font-family: QuartZite, Verdana, Geneva, sans-serif;
-        font-size: 1.5em;
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+        font-size: 2em;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
 
     }
 
     article#sameDayBuilds {
         display: block;
-        margin: 30px auto 30px auto;
+        margin: 30px auto 0 auto;
     }
 
     article#advancedCooling header {
@@ -277,7 +283,7 @@
 
     article#advancedCooling {
         display: block;
-        margin: auto;
+        margin: 30px auto 30px auto;
     }
 
     div#core, div#water, div#core2, div#water2 {
@@ -307,7 +313,7 @@
     }
 
     form {
-        width: 100%;
+        width: 90%;
         margin: 0 auto 50px auto;
     }
 
@@ -419,12 +425,7 @@
 
     article#sameDayBuilds {
         display: block;
-        margin: 30px auto 30px auto;
-    }
-
-    div#block1 {
-        display: block;
-        margin: 0 auto 30px auto;
+        margin: 35px auto 0 auto;
     }
 
     div#block1 div#tier1, div#block1 div#tier2 {
@@ -437,9 +438,8 @@
     }
 
     article#advancedCooling {
-        width: 80%;
         display: block;
-        margin: auto;
+        margin: 30px auto 30px auto;
     }
 
     div#tier4, div#tier5 {
@@ -577,18 +577,6 @@
         margin: 10px;
     }
 
-    div#formDescription {
-        display: block;
-        float: left;
-        text-align: center;
-        width: 100%;
-    }
-
-    form {
-        width: 70%;
-        margin-left: 170px;
-    }
-
     div#core p, div#core2 p {
         text-align: center;
     }
@@ -611,4 +599,9 @@
         float: left;
         width: 50%;
     }
+
+    form {
+        padding-left: 110px;
+    }
+
 }
