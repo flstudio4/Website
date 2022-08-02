@@ -243,13 +243,7 @@
         width: 100%;
     }
 
-    div#block0 {
-        display: block;
-        margin: auto;
-        width: 90%;
-    }
-
-    div#block2 {
+    div#block0, div#block1, div#block2 {
         display: block;
         margin: auto;
         width: 90%;
