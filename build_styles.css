@@ -62,9 +62,9 @@
     }
 
     div#tier1 p.price, div#tier2 p.price, div#tier3 p.price, div#tier4 p.price, div#tier5 p.price {
-        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-        font-size: 2em;
-        color: blue;
+        font-family: "Sony Sketch", "Lucida Sans", sans-serif;
+        font-size: 2.5em;
+        color: darkred;
     }
 
     div#tier1 p, div#tier2 p, div#tier3 p, div#tier4 p, div#tier5 p {

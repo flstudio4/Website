@@ -43,6 +43,35 @@ h1#title {
     padding-bottom: 20px;
 }
 
+div.cell {
+    display: block;
+    float: left;
+    width: 38%;
+    margin: 40px 40px 40px 75px;
+    horiz-align: center;
+    border-radius: 20px;
+    border: turquoise 3px ridge;
+    padding: 20px;
+    height: 400px;
+}
+div.cell img {
+    width: 60%;
+    margin: 20px auto 20px auto;
+    border-radius: 10px;
+}
+div.cell h4 {
+    text-align: center;
+    font-size: 1.7em;
+    font-family: "Sony Sketch", "Lucida Sans", sans-serif;
+}
+
+div.cell h2 {
+    text-align: center;
+    font-family: "Sony Sketch", "Lucida Sans", sans-serif;
+    font-size: 2.5em;
+    color: darkred;
+}
+
 /*       ===========================
          Mobile Styles: 0px to 640px
          ===========================
@@ -61,7 +90,17 @@ h1#title {
         width: 70%;
     }
 
-
+    div.cell {
+        display: block;
+        float: left;
+        width: 80%;
+        margin: 40px;
+        horiz-align: center;
+        border-radius: 20px;
+        border: turquoise 3px ridge;
+        padding: 20px;
+        height: 350px;
+    }
 }
 
 /*       =========================================
@@ -82,6 +121,16 @@ h1#title {
         width: 60%;
     }
 
+    div.cell {
+        display: block;
+        float: left;
+        width: 80%;
+        margin: 40px 40px 40px 80px;
+        border-radius: 20px;
+        border: turquoise 3px ridge;
+        padding: 20px;
+        height: auto;
+    }
 
 }
 
@@ -99,5 +148,32 @@ h1#title {
         margin-bottom: 10px;
         width: 60%;
     }
+    div.cell {
+        display: block;
+        float: left;
+        width: 38%;
+        margin: 40px 40px 40px 75px;
+        horiz-align: center;
+        border-radius: 20px;
+        border: turquoise 3px ridge;
+        padding: 20px;
+        height: 400px;
+    }
+    div.cell img {
+        width: 60%;
+        margin: 20px auto 20px auto;
+        border-radius: 10px;
+    }
+    div.cell h4 {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: "Sony Sketch", "Lucida Sans", sans-serif;
+    }
 
+    div.cell h2 {
+        text-align: center;
+        font-family: "Sony Sketch", "Lucida Sans", sans-serif;
+        font-size: 2.5em;
+        color: darkred;
+    }
 }
