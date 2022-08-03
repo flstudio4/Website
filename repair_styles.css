@@ -94,12 +94,11 @@ div.cell h2 {
         display: block;
         float: left;
         width: 80%;
-        margin: 40px 45px 40px 35px;
-        horiz-align: center;
+        margin: 40px 40px 40px 40px;
         border-radius: 20px;
         border: turquoise 3px ridge;
         padding: 20px;
-        height: 350px;
+        height: auto;
     }
 }
 
