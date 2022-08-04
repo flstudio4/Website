@@ -77,7 +77,7 @@
        color: dodgerblue;
        font-family: "Sony Sketch", "Lucida Sans", sans-serif;
        font-size: 2em;
-       width: 80%;
+       width: 60%;
        margin: 40px auto;
    }
 
@@ -97,6 +97,14 @@
         margin-top: 0;
         margin-bottom: 10px;
         width: 80%;
+    }
+
+    article h1 {
+        color: dodgerblue;
+        font-family: "Sony Sketch", "Lucida Sans", sans-serif;
+        font-size: 2em;
+        width: 80%;
+        margin: 40px auto;
     }
 
     article a {
@@ -126,6 +134,14 @@
         text-align: center;
         margin-top: 0;
         margin-bottom: 10px;
+    }
+
+    article h1 {
+        color: dodgerblue;
+        font-family: "Sony Sketch", "Lucida Sans", sans-serif;
+        font-size: 2em;
+        width: 80%;
+        margin: 40px auto;
     }
 
     article a {
