@@ -75,6 +75,21 @@
         margin-bottom: 10px;
         width: 70%;
     }
+
+    h1 {
+        font-family: "Agency FB", Verdana, Gabriola, sans-serif;
+        font-size: 2em;
+        color: darkred;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    article p {
+        font-family: "Garamond", "Calibri light", sans-serif;
+        font-size: 1.5em;
+        width: 70%;
+        margin: 20px auto 40px auto;
+    }
 }
 
 /*       =========================================
@@ -90,6 +105,21 @@
         text-align: center;
         margin-top: 0;
         margin-bottom: 10px;
+    }
+
+    h1 {
+        font-family: "Agency FB", Verdana, Gabriola, sans-serif;
+        font-size: 2em;
+        color: darkred;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    article p {
+        font-family: "Garamond", "Calibri light", sans-serif;
+        font-size: 1.5em;
+        width: 70%;
+        margin: 20px auto 40px auto;
     }
 
     /* other styles */
