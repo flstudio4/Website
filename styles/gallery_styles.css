@@ -43,6 +43,44 @@
         padding-bottom: 20px;
     }
 
+    div.builds {
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+        float: left;
+    }
+
+    div.builds img {
+        border-radius: 10px;
+        border-color: black;
+        border-style: solid;
+        width: 60%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    article a {
+        font-family: "Agency FB", fantasy;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        margin-left: 45%;
+        padding-bottom: 20px;
+        display: block;
+    }
+   article a:hover {
+        color: red;
+
+    }
+
+   article h1 {
+       color: dodgerblue;
+       font-family: "Sony Sketch", "Lucida Sans", sans-serif;
+       font-size: 2em;
+       width: 80%;
+       margin: 40px auto;
+   }
+
 /*       ===========================
          Mobile Styles: 0px to 640px
          ===========================
@@ -59,6 +97,16 @@
         margin-top: 0;
         margin-bottom: 10px;
         width: 80%;
+    }
+
+    article a {
+        font-family: "Agency FB", fantasy;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        margin-left: 35%;
+        padding-bottom: 20px;
+        display: block;
     }
 }
 
@@ -78,6 +126,16 @@
         text-align: center;
         margin-top: 0;
         margin-bottom: 10px;
+    }
+
+    article a {
+        font-family: "Agency FB", fantasy;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        margin-left: 40%;
+        padding-bottom: 20px;
+        display: block;
     }
 }
 
