@@ -166,7 +166,7 @@
 
 @media only screen and (max-width: 640px) {
 
-    /* Navigation styles*/
+/* Navigation styles*/
 
     ul.mainmenu {
         display: block;
@@ -207,7 +207,7 @@
         color: white;
     }
 
-    /* Pull down Menu Styles */
+/* Pull down Menu Styles */
 
     ul.submenu {
         display: none;
@@ -221,7 +221,7 @@
         font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
     }
 
-    /* other styles*/
+/* other styles*/
 
     body {
         display: -webkit-flex;
@@ -324,7 +324,7 @@
 
 @media only screen and (min-width: 641px) and (max-width: 1007px){
 
-    /* Navigation styles*/
+/* Navigation styles*/
 
     nav.horizontalNavigation {
         display: none;
@@ -369,7 +369,7 @@
         color: white;
     }
 
-    /* Pull down Menu Styles */
+/* Pull down Menu Styles */
 
     ul.submenu {
         display: none;
@@ -379,7 +379,7 @@
         display: block;
     }
 
-    /* other styles */
+/* other styles */
 
     body {
         display: -webkit-flex;
@@ -592,5 +592,4 @@
     form {
         padding-left: 110px;
     }
-
 }

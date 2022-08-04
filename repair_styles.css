@@ -31,46 +31,56 @@
 
 /* BASE STYLES FOR ALL SCREEN SIZES */
 
-h1#title {
-    font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-    font-size: 2.5em;
-    color: cornflowerblue;
-    text-shadow: aqua 2px 2px;
-    border-bottom: navy 6px double;
-    width: 50%;
-    margin: 40px auto 40px auto;
-    text-align: center;
-    padding-bottom: 20px;
+    h1#title {
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
+        color: cornflowerblue;
+        text-shadow: aqua 2px 2px;
+        border-bottom: navy 6px double;
+        width: 50%;
+        margin: 40px auto 40px auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    article h1 {
+        color: dodgerblue;
+        font-family: "Sony Sketch", "Lucida Sans", sans-serif;
+        font-size: 2em;
+        width: 70%;
+        margin: 40px auto 40px auto;
 }
 
-div.cell {
-    display: block;
-    float: left;
-    width: 38%;
-    margin: 40px 40px 40px 75px;
-    horiz-align: center;
-    border-radius: 20px;
-    border: turquoise 3px ridge;
-    padding: 20px;
-    height: 400px;
-}
-div.cell img {
-    width: 60%;
-    margin: 20px auto 20px auto;
-    border-radius: 10px;
-}
-div.cell h4 {
-    text-align: center;
-    font-size: 1.7em;
-    font-family: "Sony Sketch", "Lucida Sans", sans-serif;
+    div.cell {
+        display: block;
+        float: left;
+        width: 38%;
+        margin: 40px 40px 40px 75px;
+        horiz-align: center;
+        border-radius: 20px;
+        border: turquoise 3px ridge;
+        padding: 20px;
+        height: 400px;
+    }
+
+    div.cell img {
+        width: 60%;
+        margin: 20px auto 20px auto;
+        border-radius: 10px;
 }
 
-div.cell h2 {
-    text-align: center;
-    font-family: "Sony Sketch", "Lucida Sans", sans-serif;
-    font-size: 2.5em;
-    color: darkred;
-}
+    div.cell h4 {
+        text-align: center;
+        font-size: 1.7em;
+        font-family: "Sony Sketch", "Lucida Sans", sans-serif;
+    }
+
+    div.cell h2 {
+        text-align: center;
+        font-family: "Sony Sketch", "Lucida Sans", sans-serif;
+        font-size: 2.5em;
+        color: darkred;
+    }
 
 /*       ===========================
          Mobile Styles: 0px to 640px
@@ -79,7 +89,7 @@ div.cell h2 {
 
 @media only screen and (max-width: 640px) {
 
-    /* other styles*/
+/* other styles*/
 
     h1#title {
         font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
@@ -107,9 +117,9 @@ div.cell h2 {
          =========================================
 */
 
-@media only screen and (min-width: 641px) and (max-width: 1007px){
+@media only screen and (min-width: 641px) and (max-width: 1007px) {
 
-    /* other styles */
+/* other styles */
 
     h1#title {
         font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
@@ -130,7 +140,6 @@ div.cell h2 {
         padding: 20px;
         height: auto;
     }
-
 }
 
 /*       ==================================
@@ -147,6 +156,7 @@ div.cell h2 {
         margin-bottom: 10px;
         width: 60%;
     }
+
     div.cell {
         display: block;
         float: left;
@@ -158,11 +168,13 @@ div.cell h2 {
         padding: 20px;
         height: 400px;
     }
+
     div.cell img {
         width: 60%;
         margin: 20px auto 20px auto;
         border-radius: 10px;
     }
+
     div.cell h4 {
         text-align: center;
         font-size: 1.5em;
