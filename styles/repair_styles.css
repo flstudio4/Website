@@ -2,20 +2,20 @@
 
 @font-face {
     font-family: "billieBarred";
-    src: url(billiebarred.woff) format('woff'),
-    url(billiebarred.ttf) format('ttf');
+    src: url(../fonts/billiebarred.woff) format('woff'),
+    url(../fonts/billiebarred.ttf) format('ttf');
 }
 
 @font-face {
     font-family: "QuartZite";
-    src: url(SF-Quartzite-Shaded.ttf.woff) format('woff'),
-    url(SF-Quartzite-Shaded.ttf) format('ttf');
+    src: url(../fonts/SF-Quartzite-Shaded.ttf.woff) format('woff'),
+    url(../fonts/SF-Quartzite-Shaded.ttf) format('ttf');
 }
 
 @font-face {
     font-family: "Sony Sketch";
-    src: url(Sony-Sketch-EF.ttf) format('ttf'),
-    url(Sony-Sketch-EF.ttf.woff) format('woff');
+    src: url(../fonts/Sony-Sketch-EF.ttf) format('ttf'),
+    url(../fonts/Sony-Sketch-EF.ttf.woff) format('woff');
 }
 
 /*
