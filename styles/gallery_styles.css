@@ -139,13 +139,10 @@
         margin: 40px auto;
     }
 
-    article a {
-        font-family: "Consolas", fantasy;
-        font-size: 2em;
-        font-weight: bolder;
-        text-decoration: none;
-        margin-left: 40%;
-        padding-bottom: 20px;
+    div.builds a {
+        width: 140px;
+        display: block;
+        margin: auto;
     }
 
     article a:hover {
@@ -160,14 +157,13 @@
 
 @media only screen and (min-width: 1008px) {
 
-    article a {
-        font-family: "Agency FB", fantasy;
-        font-size: 2em;
-        font-weight: bolder;
-        text-decoration: none;
-        margin-left: 45%;
-        padding-bottom: 20px;
+    div.builds a {
+        width: 140px;
+        display: block;
+        margin: auto;
+        font-size: 1.5em;
     }
+
     article a:hover {
         color: red;
     }
