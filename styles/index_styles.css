@@ -48,6 +48,20 @@
         margin: 20px auto 40px auto;
     }
 
+    article p {
+        font-family: "Arial", Calibri, sans-serif;
+        font-size: 1.5em;
+        text-align: justify;
+        width: 70%;
+        margin: 20px auto 20px auto;
+    }
+
+    p.dot {
+        text-align: center;
+        font-size: 2em;
+        color: dodgerblue;
+    }
+
 /*       ===========================
          Mobile Styles: 0px to 640px
          ===========================
