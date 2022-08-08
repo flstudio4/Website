@@ -94,11 +94,11 @@
     }
 
     article a {
-        font-family: "Consolas", fantasy;
+        font-family: Calibri, Arial, fantasy;
         font-size: 1.75em;
         font-weight: bolder;
         text-decoration: none;
-        margin-left: 30%;
+        margin-left: 35%;
         padding-bottom: 20px;
     }
 
