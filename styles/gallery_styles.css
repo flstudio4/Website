@@ -59,20 +59,6 @@
         margin: 20px auto;
     }
 
-    article a {
-        font-family: "Agency FB", fantasy;
-        font-size: 2em;
-        font-weight: bolder;
-        text-decoration: none;
-        margin-left: 45%;
-        padding-bottom: 20px;
-        display: block;
-    }
-   article a:hover {
-        color: red;
-
-    }
-
    article h1 {
        color: dodgerblue;
        font-family: "Sony Sketch", "Lucida Sans", sans-serif;
@@ -112,9 +98,12 @@
         font-size: 2em;
         font-weight: bolder;
         text-decoration: none;
-        margin-left: 35%;
+        margin-left: 38%;
         padding-bottom: 20px;
-        display: block;
+    }
+
+    article a:hover {
+        color: red;
     }
 }
 
@@ -151,7 +140,10 @@
         text-decoration: none;
         margin-left: 40%;
         padding-bottom: 20px;
-        display: block;
+    }
+
+    article a:hover {
+        color: red;
     }
 }
 
@@ -162,4 +154,15 @@
 
 @media only screen and (min-width: 1008px) {
 
+    article a {
+        font-family: "Agency FB", fantasy;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        margin-left: 45%;
+        padding-bottom: 20px;
+    }
+    article a:hover {
+        color: red;
+    }
 }
