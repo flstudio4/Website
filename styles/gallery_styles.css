@@ -93,13 +93,19 @@
         margin: 40px auto;
     }
 
-    article a {
+    div.builds {
         font-family: Calibri, Arial, fantasy;
         font-size: 1.75em;
         font-weight: bolder;
         text-decoration: none;
-        margin-left: 30%;
+        horiz-align: center;
         padding-bottom: 20px;
+    }
+
+    div.builds a {
+        width: 140px;
+        display: block;
+        margin: auto;
     }
 
     article a:hover {
