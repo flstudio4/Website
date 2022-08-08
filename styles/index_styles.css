@@ -43,6 +43,11 @@
         padding-bottom: 20px;
     }
 
+    div#home_img img {
+        width: 60%;
+        margin: 20px auto 40px auto;
+    }
+
 /*       ===========================
          Mobile Styles: 0px to 640px
          ===========================
@@ -60,6 +65,12 @@
         margin-bottom: 10px;
         width: 70%;
     }
+
+    div#home_img img {
+        width: 80%;
+        margin: 20px auto 40px auto;
+    }
+
 }
 
 /*       =========================================
@@ -78,6 +89,11 @@
         margin-top: 0;
         margin-bottom: 10px;
         width: 70%;
+    }
+
+    div#home_img img {
+        width: 80%;
+        margin: 40px auto 40px auto;
     }
 }
 
