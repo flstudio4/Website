@@ -51,7 +51,7 @@
     article p {
         font-family: "Arial", Calibri, sans-serif;
         font-size: 1.5em;
-        text-align: justify;
+        text-align: left;
         width: 70%;
         margin: 20px auto 20px auto;
     }
@@ -87,8 +87,8 @@
 
     article p {
         font-family: "Arial", Calibri, sans-serif;
-        font-size: 1.5em;
-        width: 80%;
+        font-size: 1.3em;
+        width: 90%;
         margin: 20px auto 20px auto;
     }
 }
