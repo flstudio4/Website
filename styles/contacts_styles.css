@@ -99,10 +99,10 @@
         width: 70%;
     }
 
-    div#map img {
+    div#map iframe {
         display: block;
         width: 80%;
-        height: auto;
+        height: 300px;
         margin: 40px auto 40px auto;
     }
 }
@@ -126,10 +126,10 @@
         width: 70%;
     }
 
-    div#map img {
+    div#map iframe {
         display: block;
         width: 80%;
-        height: auto;
+        height: 600px;
         margin: 40px auto 40px auto;
     }
 }
@@ -142,10 +142,10 @@
 
 @media only screen and (min-width: 1008px){
 
-    div#map img {
+    div#map iframe {
         display: block;
         width: 60%;
-        height: auto;
+        height: 600px;
         margin: 40px auto 40px auto;
     }
 }
