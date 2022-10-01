@@ -49,9 +49,9 @@
         font-size: 2em;
         color: darkred;
         margin-bottom: 10px;
-        text-align: center;
         cursor: pointer;
         background: url("/img/plus.png") no-repeat left center;
+
     }
 
     article p {
@@ -94,6 +94,8 @@
         color: darkred;
         margin-bottom: 10px;
         text-align: center;
+        background: url("/img/plus.png") no-repeat left center;
+
     }
 
     article p {
@@ -125,6 +127,8 @@
         color: darkred;
         margin-bottom: 10px;
         text-align: center;
+        background: url("/img/plus.png") no-repeat left center;
+
     }
 
     article p {
