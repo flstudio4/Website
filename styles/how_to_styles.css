@@ -31,6 +31,7 @@
 
 /* BASE STYLES FOR ALL SCREEN SIZES */
 
+
     h1#title {
         font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
         font-size: 2.5em;
@@ -45,29 +46,41 @@
     }
 
     h2 {
-        font-family: "Agency FB", Verdana, Gabriola, sans-serif;
-        font-size: 2em;
-        color: darkred;
-        margin-bottom: 10px;
+        font-size: 120%;
+        padding: .25em 0 .25em 25px;
         cursor: pointer;
-        background: url("/img/plus.png") no-repeat left center;
+        background: url(/img/plus.png) no-repeat left center;
+        background-size: 20px;
+        text-align: left;
 
     }
 
-    article p {
-        font-family: "Garamond", "Calibri light", sans-serif;
-        font-size: 1.5em;
-        width: 70%;
-        margin: 20px auto 40px auto;
+    h2.minus {
+        background: url(/img/minus.png) no-repeat left center;
+        background-size: 20px;
     }
 
-    a {
-        color: black;
+    h2 a {
+        color: cornflowerblue;
+        text-shadow: blue 1px 1px;
         text-decoration: none;
     }
 
-    a:focus, a:hover {
-        color: blue;
+    h2 a:focus, h2 a:hover {
+        color: green;
+    }
+
+    div {
+        display: none;
+    }
+
+    div.open {
+        display: block;
+    }
+
+    p {
+        padding-bottom: .25em;
+        padding-left: 25px;
     }
 
 /*       ===========================
@@ -89,20 +102,38 @@
     }
 
     h2 {
-        font-family: "Agency FB", Verdana, Gabriola, sans-serif;
-        font-size: 2em;
-        color: darkred;
-        margin-bottom: 10px;
-        text-align: center;
-        background: url("/img/plus.png") no-repeat left center;
-
+        font-size: 120%;
+        padding: .25em 0 .25em 25px;
+        cursor: pointer;
+        background: url(/img/plus.png) no-repeat left center;
+        background-size: 20px;
     }
 
-    article p {
-        font-family: "Garamond", "Calibri light", sans-serif;
-        font-size: 1.5em;
-        width: 80%;
-        margin: 20px auto 40px auto;
+    h2.minus {
+        background: url(/img/minus.png) no-repeat left center;
+        background-size: 20px;
+    }
+
+    h2 a {
+        color: black;
+        text-decoration: none;
+    }
+
+    h2 a:focus, h2 a:hover {
+        color: blue;
+    }
+
+    div {
+        display: none;
+    }
+
+    div.open {
+        display: block;
+    }
+
+    p {
+        padding-bottom: .25em;
+        padding-left: 25px;
     }
 }
 
@@ -122,20 +153,38 @@
     }
 
     h2 {
-        font-family: "Agency FB", Verdana, Gabriola, sans-serif;
-        font-size: 2em;
-        color: darkred;
-        margin-bottom: 10px;
-        text-align: center;
-        background: url("/img/plus.png") no-repeat left center;
-
+        font-size: 120%;
+        padding: .25em 0 .25em 25px;
+        cursor: pointer;
+        background: url(/img/plus.png) no-repeat left center;
+        background-size: 20px;
     }
 
-    article p {
-        font-family: "Garamond", "Calibri light", sans-serif;
-        font-size: 1.5em;
-        width: 80%;
-        margin: 20px auto 40px auto;
+    h2.minus {
+        background: url(/img/minus.png) no-repeat left center;
+        background-size: 20px;
+    }
+
+    h2 a {
+        color: black;
+        text-decoration: none;
+    }
+
+    h2 a:focus, h2 a:hover {
+        color: blue;
+    }
+
+    div {
+        display: none;
+    }
+
+    div.open {
+        display: block;
+    }
+
+    p {
+        padding-bottom: .25em;
+        padding-left: 25px;
     }
 
     /* other styles */
