@@ -1,3 +1,12 @@
+/*
+
+    Build and Repair Service website
+    Author: Dmitrii Sumenko
+    Date: 10/01/2022
+    FileName: toggle.js
+
+ */
+
 "use strict";
 
     // the event handler for the click event of each h2 element

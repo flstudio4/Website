@@ -1,9 +1,12 @@
 
 /*
-    This script will display current year in footer
-    FileName: small_changes.js
+    Build and Repair Service website
     Author: Dmitrii Sumenko
     Date: 9/17/2022
+    FileName: small_changes.js
+
+    This script will display current year in footer,
+    display map in contacts.html
 
  */
 
