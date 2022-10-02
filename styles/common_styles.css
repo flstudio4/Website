@@ -123,6 +123,19 @@
         display: none;
     }
 
+    .sidePanel {
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        height: 400px;
+        top: 0;
+        left: 0;
+        background-color: #DDDF;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 20px;
+    }
+
     .sidePanel a {
         font-family: "Times New Roman", Verdana, Geneva, sans-serif;
         font-size: 2em;
@@ -138,7 +151,7 @@
         color: #f1f1f1;
     }
 
-    .sidePanel, .closebtn {
+    .sidePanel .closebtn {
         position: relative;
         top: 0;
         right: 25px;
@@ -158,14 +171,7 @@
         background-color:#444;
     }
 
-
-/* Pull down Menu Styles */
-
-    ul.submenu {
-        display: none;
-    }
-
-/* other styles */
+    /* other styles */
 
     body {
         display: -webkit-flex;
