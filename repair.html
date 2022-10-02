@@ -30,20 +30,17 @@
             <li><a href="contacts.html">Contacts</a></li>
         </ul>
     </nav>
-    <nav class="mobileMenu">
-        <ul class="mainMenu">
-            <li><a href="#" class="submenuTitle">Links &#9654;</a>
-                <ul class="submenu">
-                    <li><a href="index.html">Home</a> </li>
-                    <li><a href="build.html">Build</a></li>
-                    <li><a href="repair.html">Repair</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="how_to.html">How to</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+    <div id="mySidePanel" class="sidePanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="build.html">Build</a>
+        <a href="repair.html">Repair</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="how_to.html">FAQ</a>
+        <a href="contacts.html">Contacts</a>
+    </div>
+
+    <button class="openbtn" onclick="openNav()">☰</button>
 
     <h1 id="title">REPAIR SERVICES</h1>
     <article>
@@ -114,5 +111,6 @@
 <footer>
     <script src="scripts/small_changes.js"></script>
 </footer>
+    <script src="scripts/menu.js"></script>
 </body>
 </html>

@@ -41,58 +41,58 @@
 
 /* Navigation styles*/
 
-    ul.mainmenu {
-        display: block;
-    }
-
-    ul.mainmenu > li {
-        text-indent: 15px;
-    }
-
-    ul.mainmenu > li:first-of-type a {
-        color: white;
-        background-color: rgb(31, 73, 125);
-    }
-
-    ul.submenu {
-        width: 100%;
-        background-color: rgb(170, 255, 255);
-        font-family: billieBarred, cursive;
-        font-size: 1em;
-        line-height: 1.8em;
-    }
-
     nav.horizontalNavigation {
         display: none;
     }
 
-    nav.mobileMenu a {
+    .sidePanel {
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        height: 400px;
+        top: 0;
+        left: 0;
+        background-color: #DDDF;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 20px;
+    }
+
+    .sidePanel a {
+        font-family: "Times New Roman", Verdana, Geneva, sans-serif;
+        font-size: 2em;
+        font-weight: bolder;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        color: cornflowerblue;
         display: block;
-        font-size: 1.5em;
+        transition: 0.3s;
     }
 
-    nav.mobileMenu a:visited, nav.mobileMenu a:link {
-        color: rgb(31, 73, 125);
+    .sidePanel a:hover {
+        color: #f1f1f1;
     }
 
-    nav.mobileMenu a:hover, nav.mobileMenu a:active {
-        background-color: rgb(31, 73, 125);
+    .sidePanel .closebtn {
+        position: relative;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+    }
+
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: aqua;
         color: white;
+        padding: 10px 15px;
+        border: none;
     }
 
-/* Pull down Menu Styles */
-
-    ul.submenu {
-        display: none;
+    .openbtn:hover {
+        background-color:#444;
     }
 
-    a.submenuTitle:hover + ul.submenu, ul.submenu:hover {
-        display: block;
-    }
-
-    a.submenuTitle {
-        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-    }
 
 /* other styles*/
 
@@ -123,53 +123,46 @@
         display: none;
     }
 
-    ul.mainmenu {
+    .sidePanel a {
+        font-family: "Times New Roman", Verdana, Geneva, sans-serif;
+        font-size: 2em;
+        font-weight: bolder;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        color: cornflowerblue;
         display: block;
+        transition: 0.3s;
     }
 
-    ul.mainmenu > li {
-        text-indent: 15px;
+    .sidePanel a:hover {
+        color: #f1f1f1;
     }
 
-    ul.mainmenu > li:first-of-type a {
+    .sidePanel, .closebtn {
+        position: relative;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+    }
+
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: aqua;
         color: white;
-        background-color: rgb(31, 73, 125);
+        padding: 10px 15px;
+        border: none;
     }
 
-    ul.submenu {
-        width: 100%;
-        background-color: rgb(170, 255, 255);
-        font-family: billieBarred, cursive;
-        font-size: 1em;
-        line-height: 1.8em;
+    .openbtn:hover {
+        background-color:#444;
     }
 
-    nav.mobileMenu a {
-        display: block;
-        font-size: 1.5em;
-    }
-
-    a.submenuTitle {
-        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
-    }
-
-    nav.mobileMenu a:visited, nav.mobileMenu a:link {
-        color: rgb(31, 73, 125);
-    }
-
-    nav.mobileMenu a:hover, nav.mobileMenu a:active {
-        background-color: rgb(31, 73, 125);
-        color: white;
-    }
 
 /* Pull down Menu Styles */
 
     ul.submenu {
         display: none;
-    }
-
-    a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
-        display: block;
     }
 
 /* other styles */
@@ -195,7 +188,15 @@
 
 @media only screen and (min-width: 1008px) {
 
-    nav.mobileMenu {
+    .openbtn {
+        display: none;
+    }
+
+    .closebtn {
+        display: none;
+    }
+
+    div#mySidePanel {
         display: none;
     }
 

@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="styles/basics.css" rel="stylesheet"/>
     <link href="styles/reset.css" rel="stylesheet"/>
-    <link href="styles/how_to_styles.css" rel="stylesheet"/>
+    <link href="styles/how_to_styles.css" rel="stylesheet" />
     <link href="styles/common_styles.css" rel="stylesheet"/>
 
 </head>
@@ -30,25 +30,23 @@
             <li><a href="contacts.html">Contacts</a></li>
         </ul>
     </nav>
-    <nav class="mobileMenu">
-        <ul class="mainMenu">
-            <li><a href="#" class="submenuTitle">Links &#9654;</a>
-                <ul class="submenu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="build.html">Build</a></li>
-                    <li><a href="repair.html">Repair</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="how_to.html">How to</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+
+    <div id="mySidePanel" class="sidePanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="build.html">Build</a>
+        <a href="repair.html">Repair</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="how_to.html">FAQ</a>
+        <a href="contacts.html">Contacts</a>
+    </div>
+
+    <button class="openbtn" onclick="openNav()">☰</button>
 
     <h1 id="title">HOW TO GUIDES</h1>
     <article id="faqs">
         <h2><a href="#">General Computer Slowdowns</a></h2>
-        <div>
+        <div class="hide">
             <p>One of the most common problems users have with their computer is that it is "running slow."
                 This can be caused by many things. However, typically it is referring to the time it takes
                 to turn on the PC, open programs, or do just about anything. In some extreme cases, this can
@@ -59,7 +57,7 @@
         </div>
 
         <h2><a href="#">PC Will NOT Turn On</a></h2>
-        <div>
+        <div class="hide">
             <p>Pressing the power button on your computer and having nothing happen can feel like the end of the world.
                 Luckily, power issues do not necessarily mean the entire PC is broken or that data has been lost. Both
                 desktops and laptops can refuse to turn on for a number of reasons. Sometimes it can even be just a
@@ -85,7 +83,7 @@
             </p>
         </div>
         <h2><a href="#">Peripherals Not Working</a></h2>
-        <div>
+        <div class="hide">
             <p>
                 Sometimes the most annoying problems are not with your computer itself but rather with the peripherals
                 you are trying to use with the machine. Keyboards and mice see a tremendous amount of daily use, so it
@@ -112,7 +110,7 @@
             </p>
         </div>
         <h2><a href="#">Audio Issues</a></h2>
-        <div>
+        <div class="hide">
             <p>
                 Virtual meetings have become standard these days, and so have a host of audio issues that can make using
                 your PC unbearable. Microphones can get accidentally muted, or audio sources can switch within different
@@ -134,7 +132,7 @@
             </p>
         </div>
         <h2><a href="#">BSoD (Blue Screen of Death)</a></h2>
-        <div>
+        <div class="hide">
             <p>
                 The most terrifying of computer problems is the dreaded blue screen of death. This term refers to the
                 blue error screen that appears when your computer has a critical failure of some kind. Blue screens can
@@ -163,6 +161,7 @@
 <footer>
     <script src="scripts/small_changes.js"></script>
 </footer>
-<script src="scripts/issues.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/toggle.js"></script>
 </body>
 </html>
