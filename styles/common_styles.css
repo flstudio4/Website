@@ -52,7 +52,7 @@
         height: 400px;
         top: 0;
         left: 0;
-        background-color: #DDDF;
+        background-color: gray;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 20px;
@@ -64,23 +64,24 @@
         font-weight: bolder;
         padding: 8px 8px 8px 32px;
         text-decoration: none;
-        color: cornflowerblue;
+        color: white;
+        text-shadow: blue 1px 1px;
         display: block;
-        transition: 0.3s;
+        transition: 0.5s;
     }
 
     .sidePanel a:hover {
         color: #f1f1f1;
     }
 
-    .sidePanel .closebtn {
+    .sidePanel .closeButton {
         position: relative;
         top: 0;
         right: 25px;
         font-size: 36px;
     }
 
-    .openbtn {
+    .openButton {
         font-size: 20px;
         cursor: pointer;
         background-color: aqua;
@@ -89,7 +90,7 @@
         border: none;
     }
 
-    .openbtn:hover {
+    .openButton:hover {
         background-color:#444;
     }
 
@@ -151,14 +152,14 @@
         color: #f1f1f1;
     }
 
-    .sidePanel .closebtn {
+    .sidePanel .closeButton {
         position: relative;
         top: 0;
         right: 25px;
         font-size: 36px;
     }
 
-    .openbtn {
+    .openButton {
         font-size: 20px;
         cursor: pointer;
         background-color: aqua;
@@ -167,7 +168,7 @@
         border: none;
     }
 
-    .openbtn:hover {
+    .openButton:hover {
         background-color:#444;
     }
 
@@ -194,11 +195,11 @@
 
 @media only screen and (min-width: 1008px) {
 
-    .openbtn {
+    .openButton {
         display: none;
     }
 
-    .closebtn {
+    .closeButton {
         display: none;
     }
 
