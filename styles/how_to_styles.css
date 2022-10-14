@@ -115,19 +115,19 @@
         background-size: 20px;
     }
 
-    h2.minus {
+    article h2.minus {
         background: url(/img/minus.png) no-repeat left center;
         background-size: 20px;
     }
 
-    h2 a {
+    article h2 a {
         color: cornflowerblue;
         text-shadow: blue 1px 1px;
         text-decoration: none;
         line-height: 3em;
     }
 
-    h2 a:focus, h2 a:hover {
+    article h2 a:focus, article h2 a:hover {
         color: green;
     }
 
