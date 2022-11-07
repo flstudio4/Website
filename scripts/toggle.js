@@ -2,7 +2,7 @@
 
     Build and Repair Service website
     Author: Dmitrii Sumenko
-    Date: 10/01/2022
+    Date: 11/01/2022
     FileName: toggle.js
 
  */

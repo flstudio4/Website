@@ -1,4 +1,12 @@
+/*
 
+    Build and Repair Service website
+    Slide show for index.html
+    Author: Dmitrii Sumenko
+    Date: 10/01/2022
+    FileName: slide_show.js
+
+ */
 
 "use strict";
 $(document).ready( () => {
