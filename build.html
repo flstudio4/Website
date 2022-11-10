@@ -113,70 +113,50 @@
 <!--         Web-form for customer information      -->
 
     <div id="formDescription"><h1>Please, fill up the form, and we will contact you!</h1></div>
-        <form>
+        <form action="test.html" method="get">
             <fieldset>
                 <legend>Customer Information</legend>
 
                 <div class="formRow">
-                    <label for="name">Name*</label>
-                    <input name="customerName" id="name" type="text" placeholder="First and Last name" required />
+                    <label for="name">Name</label>
+                    <input name="customerName" id="name" type="text" placeholder="First and Last name" /><span>*</span>
                 </div>
                 <div class="formRow">
                     <label for="street">Street address</label>
-                    <input name="customerStreet" id="street" type="text" />
+                    <input name="customerStreet" id="street" type="text" /><span>*</span>
                 </div>
                 <div class="formRow">
                     <label for="city">City</label>
-                    <input name="customerCity" id="city" type="text" />
+                    <input name="customerCity" id="city" type="text" /><span>*</span>
                 </div>
                 <div class="formRow">
                     <label for="state">State</label>
-                    <input name="customerState" id="state" type="text" />
+                    <input name="customerState" id="state" type="text" /><span>*</span>
                 </div>
                 <div class="formRow">
                     <label for="zip">Postal code</label>
-                    <input name="customerZip" id="zip" type="text" placeholder="zip code" />
+                    <input name="customerZip" id="zip" type="text" placeholder="zip code" /><span>*</span>
                 </div>
                 <div class="formRow">
                     <label for="phone">Phone number</label>
-                    <input name="customerPhone" id="phone" type="tel" placeholder="10 digit phone number" />
+                    <input name="customerPhone" id="phone" type="tel" placeholder="10 digit phone number" /><span>*</span>
                 </div>
                 <div class="formRow">
-                    <label for="mail">E-mail*</label>
-                    <input name="customerEmail" id="mail" type="email" required />
+                    <label for="mail">E-mail</label>
+                    <input name="customerEmail" id="mail" type="email" /><span>*</span>
                 </div>
-                <div class="formRow">
-                    <label for="build">Please choose build</label>
-                    <input name="build" id="build" type="text" list="buildType" />
-                    <datalist id="buildType">
-                        <option value="Air-Cooled"></option>
-                        <option value="Air-Cooled+OS"></option>
-                        <option value="Water-Cooled(AIO)"></option>
-                        <option value="Water-Cooled(Soft tube)"></option>
-                        <option value="Water-Cooled(Hard tube)"></option>
-                    </datalist>
-                </div>
-                <div class="formRow">
-                    <label for="info">Where did you hear about us?</label>
-                    <input name="infoSrc" id="info" type="text" list="where" />
-                    <datalist id="where">
-                        <option value="Internet"></option>
-                        <option value="Magazine"></option>
-                        <option value="Newspaper"></option>
-                        <option value="flyer"></option>
-                        <option value="Recommended by friend"></option>
-                        <option value="Other"></option>
-                    </datalist>
-                </div>
+
             </fieldset>
             <div id="buttons">
-                <input type="submit" value="Submit information" />
+                <input type="submit" id="submit" value="Submit information" />
             </div>
         </form>
 
 <footer>
     <script src="scripts/small_changes.js"></script>
 </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="scripts/form_validation.js"></script>
     <script src="scripts/menu.js"></script>
 </body>
 </html>

@@ -103,6 +103,9 @@
         width: 80%;
         horiz-align: center;
         margin: 30px auto 30px auto;
+        font-family: Calibri serif;
+        font-weight: bolder;
+        font-size: 1.2em;
     }
 
     div#formDescription h1 {
@@ -155,6 +158,12 @@
     div.formRow > input#dineSpin {
         -webkit-flex: 0 0 50px;
         flex: 0 0 50px;
+    }
+
+    span {
+        padding-left: 10px;
+        padding-top: 5px;
+        color: red;
     }
 
 
