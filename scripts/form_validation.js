@@ -2,8 +2,6 @@
 
 $(document).ready( () => {
 
-    $("#name").focus();
-
     $("#submit").click( evt => {
 
        let isValid = true;
