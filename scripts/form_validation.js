@@ -1,3 +1,15 @@
+/*
+
+    Build and Repair Service website
+    Author: Dmitrii Sumenko
+    Date: 11/14/2022
+    Filename: form_validation.js
+
+    Form validation for build.html
+
+ */
+
+
 "use strict";
 
 $(document).ready( () => {
