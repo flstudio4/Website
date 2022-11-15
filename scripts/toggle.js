@@ -5,6 +5,8 @@
     Date: 11/01/2022
     FileName: toggle.js
 
+    This script show/hide div elements with animation on how_to.html
+
  */
 
 "use strict";

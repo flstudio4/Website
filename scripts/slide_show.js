@@ -6,6 +6,9 @@
     Date: 10/01/2022
     FileName: slide_show.js
 
+    Script uses jQuery animation to showcase pictures on index.html which fade out of previous picture
+    and fade in of new picture after 3 seconds
+
  */
 
 "use strict";
