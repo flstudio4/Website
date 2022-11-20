@@ -49,25 +49,29 @@
         width: 0;
         position: fixed;
         z-index: 1;
-        height: 400px;
+        height: 425px;
         top: 0;
         left: 0;
-        background-color: gray;
+        background-color: #222327;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 20px;
     }
 
     .sidePanel a {
-        font-family: "Times New Roman", Verdana, Geneva, sans-serif;
-        font-size: 2em;
+        font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
+        font-size: 2.5em;
         font-weight: bolder;
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         color: white;
-        text-shadow: blue 1px 1px;
+        text-shadow: deepskyblue 2px 2px 15px, deepskyblue -2px -2px 15px;
         display: block;
         transition: 0.5s;
+    }
+
+    .sidePanel a:first-of-type {
+        font-family: serif;
     }
 
     .sidePanel a:hover {
