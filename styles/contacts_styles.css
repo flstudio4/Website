@@ -34,7 +34,7 @@
         font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
         font-size: 2.5em;
         color: cornflowerblue;
-        text-shadow: deepskyblue 2px 2px 15px, deepskyblue -2px -2px 15px;
+        text-shadow: blue 2px 2px 15px, red -2px -2px 15px, black 1px 1px 4px;
         border-bottom: navy 6px double;
         width: 50%;
         margin: 40px auto 40px auto;
