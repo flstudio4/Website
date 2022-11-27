@@ -8,13 +8,14 @@
     Filename: gallery.html
    -->
 
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>Gallery</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="styles/basics.css" rel="stylesheet" />
     <link href="styles/reset.css" rel="stylesheet" />
     <link href="styles/gallery_styles.css" rel="stylesheet" />
     <link href="styles/common_styles.css" rel="stylesheet" />
+    <link href="styles/jquery.bxslider.css" rel="stylesheet">
 
 </head>
 <body>
@@ -42,45 +43,24 @@
 
     <button type="button" class="openButton" onclick="openNav()">☰</button>
 </header>
-
     <h1 id="title">GALLERY</h1>
     <article>
         <h1>Here are some examples of custom PC builds that our company can do for our clients.</h1>
-        <div class="builds">
-            <img src="img/pc1.jpg" alt="pc1" />
-            <a href="build.html">Check price</a>
-        </div>
-
-        <div class="builds">
-            <img src="img/pc2.webp" alt="pc2" />
-            <a href="build.html">Check price</a>
-        </div>
-
-        <div class="builds">
-            <img src="img/pc3.jpg" alt="pc3" />
-            <a href="build.html">Check price</a>
-        </div>
-
-        <div class="builds">
-            <img src="img/pc4.jpg" alt="pc4" />
-            <a href="build.html">Check price</a>
-        </div>
-
-        <div class="builds">
-            <img src="img/pc5.jpg" alt="pc5" />
-            <a href="build.html">Check price</a>
-        </div>
-
-        <div class="builds">
-            <img src="img/pc6.jpg" alt="pc6" />
-            <a href="build.html">Check price</a>
-        </div>
-
+        <ul id="slider">
+            <li><img src="img/pc1.jpg" alt=""></li>
+            <li><img src="img/pc2.webp" alt=""></li>
+            <li><img src="img/pc3.jpg" alt=""></li>
+            <li><img src="img/pc4.jpg" alt=""></li>
+            <li><img src="img/pc5.jpg" alt=""></li>
+            <li><img src="img/pc6.jpg" alt=""></li>
+        </ul>
     </article>
-
 <footer>
     <script src="scripts/small_changes.js"></script>
 </footer>
     <script src="scripts/menu.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="scripts/jquery.bxslider.min.js"></script>
+    <script src="scripts/slides_script_gallery.js"></script>
 </body>
 </html>

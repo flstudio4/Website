@@ -43,22 +43,6 @@
         padding-bottom: 20px;
     }
 
-    div.builds {
-        width: 100%;
-        margin: 20px auto;
-        display: block;
-        float: left;
-    }
-
-    div.builds img {
-        border-radius: 10px;
-        border-color: black;
-        border-style: solid;
-        width: 60%;
-        height: auto;
-        margin: 20px auto;
-    }
-
    article h1 {
        color: dodgerblue;
        font-family: "Sony Sketch", "Lucida Sans", sans-serif;
@@ -90,26 +74,17 @@
         font-family: "Sony Sketch", "Lucida Sans", sans-serif;
         font-size: 2em;
         width: 80%;
-        margin: 40px auto;
+        margin: 40px auto 100px auto;
     }
 
-    .builds {
-        font-family: Calibri, Arial, fantasy;
-        font-size: 1.75em;
-        font-weight: bolder;
-        text-decoration: none;
-        horiz-align: center;
-        padding-bottom: 20px;
-    }
-
-    .builds a {
-        width: 160px;
+    #slider img {
         display: block;
-        margin: auto;
+        height: auto;
+        width: 100%;
     }
 
-    article a:hover {
-        color: red;
+    footer {
+        margin-top: 70px;
     }
 }
 
@@ -139,15 +114,16 @@
         margin: 40px auto;
     }
 
-    div.builds a {
-        width: 140px;
+    #slider img {
         display: block;
-        margin: auto;
+        height: auto;
+        width: 100%;
     }
 
-    article a:hover {
-        color: red;
+    footer {
+        margin-top: 70px;
     }
+
 }
 
 /*       ==================================
@@ -156,15 +132,7 @@
 */
 
 @media only screen and (min-width: 1008px) {
-
-    div.builds a {
-        width: 140px;
-        display: block;
-        margin: auto;
-        font-size: 1.5em;
-    }
-
-    article a:hover {
-        color: red;
+    footer {
+        margin-top: 150px;
     }
 }
