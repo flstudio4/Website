@@ -5,7 +5,7 @@
     Date: 11/27/2022
     Filename: slides_script_gallery.js
 
-    Functions for closing and opening of side panel in mobile menu
+    Script for slider on gallery.html
 
  */
 
@@ -29,7 +29,7 @@ $(document).ready( () => {
                 captions: true,
                 minSlides: 1,
                 maxSlides: 1,
-                slideWidth: 350,
+                slideWidth: 320,
                 slideMargin: 10
             });
         }
