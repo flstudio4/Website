@@ -35,7 +35,7 @@
         font-family: "Sony Sketch", Verdana, Geneva, sans-serif;
         font-size: 2.5em;
         color: cornflowerblue;
-        text-shadow: blue 2px 2px 15px, red -2px -2px 15px, black 1px 1px 4px;
+        text-shadow: blue 2px 2px 25px, red -2px -2px 15px, black 1px 1px 4px;
         border-bottom: navy 6px double;
         width: 50%;
         margin: 40px auto 40px auto;
@@ -58,9 +58,10 @@
         margin: 40px 40px 40px 75px;
         horiz-align: center;
         border-radius: 20px;
-        border: turquoise 3px ridge;
+
         padding: 20px;
         height: 400px;
+        box-shadow: lightcyan 2px 2px 25px, aqua -2px -2px 25px, azure 1px 1px 4px;
     }
 
     div.cell img {
@@ -114,7 +115,6 @@
         width: 80%;
         margin: 40px 40px 40px 40px;
         border-radius: 20px;
-        border: turquoise 3px ridge;
         padding: 20px;
         height: auto;
     }
@@ -144,7 +144,6 @@
         width: 80%;
         margin: 40px 40px 40px 80px;
         border-radius: 20px;
-        border: turquoise 3px ridge;
         padding: 20px;
         height: auto;
     }
@@ -172,7 +171,6 @@
         margin: 40px 40px 40px 75px;
         horiz-align: center;
         border-radius: 20px;
-        border: turquoise 3px ridge;
         padding: 20px;
         height: 400px;
     }
@@ -181,6 +179,7 @@
         width: 60%;
         margin: 20px auto 20px auto;
         border-radius: 10px;
+        border: solid gray 1px;
     }
 
     div.cell h4 {

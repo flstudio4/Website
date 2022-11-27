@@ -97,12 +97,13 @@
     }
 
     article p {
+        border-left: solid gray 1px;
         display: block;
-        font-family: Arial, serif;
+        font-family: Calibri, serif;
         font-size: 1.4em;
         padding-bottom: .25em;
-        padding-left: 25px;
-        width: 80%;
+        padding-left: 20px;
+        width: 78%;
         margin: 0 auto;
     }
 
@@ -161,7 +162,7 @@
         color: cornflowerblue;
         text-shadow: blue 1px 1px;
         text-decoration: none;
-        line-height: 3em;
+        line-height: 2em;
     }
 
     article h2 a:focus, article h2 a:hover {

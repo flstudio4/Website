@@ -44,13 +44,12 @@
     }
 
     div#home_img img {
-        height: 400px;
-        width: auto;
+        width: 70%;
         margin: 20px auto 40px auto;
     }
 
     article p {
-        font-family: "Arial", Calibri, sans-serif;
+        font-family: Calibri, "Century Gothic", sans-serif;
         font-size: 1.5em;
         text-align: left;
         width: 70%;
@@ -60,7 +59,8 @@
     p.dot {
         text-align: center;
         font-size: 2em;
-        color: dodgerblue;
+        color: cornflowerblue;
+        text-shadow: blue 2px 2px 15px, green -2px -2px 15px, black 1px 1px 2px;
     }
 
     div#slides {
@@ -86,7 +86,7 @@
     }
 
     div#home_img img {
-        width: 70%;
+        width: 90%;
         height: auto;
         margin: 20px auto 40px auto;
     }

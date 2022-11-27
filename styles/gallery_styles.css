@@ -93,7 +93,7 @@
         margin: 40px auto;
     }
 
-    div.builds {
+    .builds {
         font-family: Calibri, Arial, fantasy;
         font-size: 1.75em;
         font-weight: bolder;
@@ -102,7 +102,7 @@
         padding-bottom: 20px;
     }
 
-    div.builds a {
+    .builds a {
         width: 160px;
         display: block;
         margin: auto;
