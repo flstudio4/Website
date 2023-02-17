@@ -15,7 +15,7 @@
     // Footer copyright automatic year change
 
     const date = new Date().getFullYear();
-    const html = `<p>&copy;Dmitrii Sumenko design ${date}</p>`;
+    const html = `<p>&copy;Dmitrii Sumenko design 2022 - ${date}</p>`;
     document.write(html);
 
 
